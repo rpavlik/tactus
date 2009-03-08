@@ -5,11 +5,11 @@ affiliated exceptions."""
 # none yet
 
 # Third party imports
-import gtk
-import wnck
+#import gtk
+#import wnck
 
 # Internal imports
-from managedwindow import ManagedWindow, WindowNotManagedError
+from managedwindow import WindowNotManagedError #ManagedWindow
 
 class PileError(Exception):
 	"""Base class for Pile-related exceptions."""

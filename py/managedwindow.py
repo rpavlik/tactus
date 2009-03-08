@@ -37,7 +37,7 @@ class ManagedWindow:
 	def __init__(self, window):
 		self.__window = window
 		self.was_active = self.__window.is_active()
-		self.__icon = self.__window.get_icon()
+		self.icon = self.__window.get_icon()
 		self.name = ["Unknown Name", self.__window.get_name()] [
 			self.__window.has_name()]
 		self.iconized_name = ["Unknown Icon Name", 
@@ -47,7 +47,7 @@ class ManagedWindow:
 		# set signal handlers
 		self.name_changed_handler = self.__window.connect(
 			"name-changed", self.update_name, 0)
-		self.__icon_changed_handler = self.__window.connect(
+		self.icon_changed_handler = self.__window.connect(
 			"icon-changed", self.update_icon, 0)
 		self.__state_changed_handler = self.__window.connect(
 			"state-changed", self.update_state, 0)
@@ -59,7 +59,7 @@ class ManagedWindow:
 		return
 	
 	## Signal handlers
-	def update_name(self, widget, callback_data):
+	def update_name(self, _widget, _callback_data):
 		"""Callback function handing name-changed signal, passes to
 		parent pile, too."""
 		
@@ -73,17 +73,17 @@ class ManagedWindow:
 			self.pile.update_child_name(self)
 		return
 
-	def update_icon(self, widget, callback_data):
+	def update_icon(self, _widget, _callback_data):
 		"""Callback function handing icon-changed signal, passes to
 		parent pile, too."""
 		
 		print "in update_icon for ", self.name
-		self.__icon = self.__window.get_icon()
+		self.icon = self.__window.get_icon()
 		if not self.pile is None:
 			self.pile.update_child_icon(self)
 		return
 	
-	def update_state(self, widget, changed_mask, new_state, callback_data):
+	def update_state(self, _widget, _changed_mask, _new_state, _callback_data):
 		"""STUB: Callback function handing state-changed signal, passes to
 		parent pile, too.
 		
