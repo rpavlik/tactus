@@ -2,6 +2,7 @@
 
 # Standard imports
 from random import randint
+import os
 # none yet
 
 # Third party imports
@@ -36,8 +37,16 @@ class WindowNotManagedError(ManagedWindowError):
 class ManagedWindow:
 	"""This class wraps wnck.Window to organize windows into a WindowPile."""
 	def __init__(self, window):
+		# Create temporary storage location
+		iconroot=os.path.expanduser("~/.tactus/icons100/")
+		try:
+			os.makedirs(iconroot)
+		except OSError:
+			# well, the path already exists.  No harm done.
+			pass
+		
 		#FIXME: a random number is bad here, we want a hash or something.
-		self.imgpath = "/home/ryan/src/cs460/tactus/py/"+str(randint(0,100))+".png"
+		self.imgpath = os.path.join(iconroot, str(randint(0,100))+".png")
 		self.__window = window
 		self.was_active = self.__window.is_active()
 		self.icon = self.__window.get_icon()
