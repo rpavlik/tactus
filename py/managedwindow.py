@@ -1,6 +1,7 @@
 """Module contains ManagedWindow class - wrapping wnck.Window for WindowPile"""
 
 # Standard imports
+from random import randint
 # none yet
 
 # Third party imports
@@ -35,9 +36,12 @@ class WindowNotManagedError(ManagedWindowError):
 class ManagedWindow:
 	"""This class wraps wnck.Window to organize windows into a WindowPile."""
 	def __init__(self, window):
+		#FIXME: a random number is bad here, we want a hash or something.
+		self.imgpath = "/home/ryan/src/cs460/tactus/py/"+str(randint(0,100))+".png"
 		self.__window = window
 		self.was_active = self.__window.is_active()
 		self.icon = self.__window.get_icon()
+		self.icon.save(self.imgpath, "png")
 		self.name = ["Unknown Name", self.__window.get_name()] [
 			self.__window.has_name()]
 		self.iconized_name = ["Unknown Icon Name", 

@@ -108,3 +108,11 @@ class WindowPile:
 		
 		window.pile = None
 		self.__windows.remove(window)
+		
+	def update_child_icon(self, window):
+		"""Callback called by child window upon noticing its icon changed."""
+		pass
+	
+	def update_child_name(self, window):
+		"""Callback called by child window upon noticing its name changed."""
+		pass

@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 """Main module to create demo GTK interface and serve as client to
 ManagedWindow and WindowPile."""
 
