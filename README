@@ -12,7 +12,7 @@ Senior Capstone project course.  The corresponding web site (for the
 combined hardware-software system) is http://compsci.snc.edu/cs460/pavlra/
 
 This project's code is hosted on GitHub - the canonical version is at:
-http://github.com/megabyte405/tactus/tree/master
+http://github.com/rpavlik/tactus/tree/master
 
 Quickstart:
 -----------
@@ -27,7 +27,7 @@ Check out the CS460 page for rp-mt-scripts:
 http://compsci.snc.edu/cs460/pavlra/software/rp-mt-scripts/
 
 or soon-to-be better, the project page on GitHub:
-http://github.com/megabyte405/rp-mt-scripts/tree/master
+http://github.com/rpavlik/rp-mt-scripts/tree/master
 
 2. Make sure you have pymt installed and updated using rp-mt-scripts!  The
 pymt package must be installed (apt-cache policy pymt to make sure.)
@@ -76,7 +76,7 @@ If you want more info on the whole integrated project, see my web site:
  - http://compsci.snc.edu/cs460/pavlra/
 
 To see source code, history, etc, check the GitHub repository:
- - http://github.com/megabyte405/tactus/tree/master
+ - http://github.com/rpavlik/tactus/tree/master
 
 If you find a bug, file an issue in my GitHub project:
- - http://github.com/megabyte405/tactus/issues
+ - http://github.com/rpavlik/tactus/issues
