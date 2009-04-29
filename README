@@ -1,0 +1,82 @@
+README for tactus-navigation
+tactus-navigation: Copyright 2009, Ryan Pavlik <ryan.pavlik@snc.edu>
+
+tactus-navigation is a task-management interface designed for Linux computers
+using standard keyboard, mouse, and display, as well as a multi-touch display
+(preferably horizontal and opposite the mouse, for bimanual input).  The
+multi-touch display is used as a navigation display to manipulate running
+tasks in naturally-arranged groups: "piles."
+
+This project has its start in a St. Norbert College Computer Science CS460
+Senior Capstone project course.  The corresponding web site (for the
+combined hardware-software system) is http://compsci.snc.edu/cs460/pavlra/
+
+This project's code is hosted on GitHub - the canonical version is at:
+http://github.com/megabyte405/tactus/tree/master
+
+Quickstart:
+-----------
+0. Get this software somehow: either use a .tar.gz download from GitHub or
+clone it using the public git url shown there.
+
+1. Start by installing the rp-mt-scripts: you only really need pymt (you can
+partially use it with the mouse multi-touch emulation included in pymt) but
+for best results run the full default install script.
+
+Check out the CS460 page for rp-mt-scripts:
+http://compsci.snc.edu/cs460/pavlra/software/rp-mt-scripts/
+
+or soon-to-be better, the project page on GitHub:
+http://github.com/megabyte405/rp-mt-scripts/tree/master
+
+2. Make sure you have pymt installed and updated using rp-mt-scripts!  The
+pymt package must be installed (apt-cache policy pymt to make sure.)
+
+3. Run tbeta (in rp-mt-scripts, ./run_tbeta.sh , hit b to save background,
+and hit space to go to mini mode) if you are using an actual mt device.  No
+need to run FLOSC since this isn't written in Flash.
+
+4. Run mainpymt.py:
+cd whereveryouclonedtactus/py
+./mainpymt.py
+
+5. Have fun!  Hit esc to exit until I have a more clever way set up.
+
+Requirements:
+-------------
+ - Ubuntu 9.04 or similar Linux that works well with PyMT.  8.10 works but
+	needs some source packages backported from 9.04, which is why I
+	recommend the newer version.
+
+ - python-gtk2, python-gnome2-desktop
+
+ - (Recommended) rp-mt-scripts to install the latest pymt as a debian package
+	as well as other software needed if you actually have an MT surface.
+
+ - A recent (probably SVN) version of PyMT http://pymt.txzone.net/
+	rp-mt-scripts can automatically install the latest as a debian package,
+	which should probably work just spiffy!
+
+	(It does need to be installed system-wide so at least use checkinstall
+	to make a package when installing so you can cleanly remove it.)
+
+	Tested compatible SVN revisions of PyMT:
+	(rp-mt: pymt package version 0.0.rev-datebuilt, we only care about rev)
+	
+	801  (back to 799 should also be fine too, at least - didn't see any
+		important core changes when I just built a new package.)
+
+	Of course, I see now that they just moved to Mercurial for source
+	control, so the rp-mt-scripts will be ported sooner or later.  GitHub
+	will always have the latest.
+
+More Info:
+----------
+If you want more info on the whole integrated project, see my web site:
+ - http://compsci.snc.edu/cs460/pavlra/
+
+To see source code, history, etc, check the GitHub repository:
+ - http://github.com/megabyte405/tactus/tree/master
+
+If you find a bug, file an issue in my GitHub project:
+ - http://github.com/megabyte405/tactus/issues
