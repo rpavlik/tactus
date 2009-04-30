@@ -13,6 +13,7 @@ import gtk
 # Internal imports
 from canvassedpile import CanvassedPile
 from canvassedwindow import CanvassedWindow
+from config import WIDTH, HEIGHT
 
 class PileCanvas(MTKinetic):
 	"""A PileCanvas handles management of all normal window, by tracking both
@@ -53,13 +54,12 @@ class PileCanvas(MTKinetic):
 				print "Special window: ", window.get_name()
 		
 		# now add ourselves to the window
+		self.process_kinetic()
 		self.mtwindow.add_widget(self)
 
 # Main
 if __name__ == '__main__':
-	w = MTWallpaperWindow(wallpaper='wallpaper.png', fullscreen=False)
+	w = MTWallpaperWindow(wallpaper='wallpaper.png', fullscreen=False, width=WIDTH, height=HEIGHT)
 	thisCanvas=PileCanvas(w)
-	#k.process_kinetic()
-	#w.add_widget(k)
 	runTouchApp()
 

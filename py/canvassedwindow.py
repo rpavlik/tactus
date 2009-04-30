@@ -1,9 +1,15 @@
 """Module contains CanvassedWindow class - subclassing ManagedWindow and
 MTScatterImage to bring the abstract concept into mt world."""
 
-from managedwindow import ManagedWindow
+# Standard imports
+import random
 
+# Third party imports
 from pymt import MTScatterImage, Vector
+
+# Internal imports
+from managedwindow import ManagedWindow
+from config import WIDTH, HEIGHT
 
 class CanvassedWindow(ManagedWindow, MTScatterImage):
 	"""Subclasses ManagedWindow and MTScatterImage to bring the abstract concept
@@ -11,8 +17,9 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 	
 	def __init__(self, **kwargs):
 		ManagedWindow.__init__(self, kwargs.get('window'))
+		position=(random.uniform(0,WIDTH), random.uniform(0,HEIGHT))
 		MTScatterImage.__init__(self, filename=self.imgpath, do_rotation=False,
-			do_scale=False, size=(32,32))
+			do_scale=False, size=(32,32), pos=position)
 
 #	def set_position(self, position):
 #		"""Changes the position of the window on the canvas, but does not
@@ -32,9 +39,7 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 #		self.position = position
 #		self.pile.update_child_position(self)
 #		
-		
-		
-	#@self.events
+
 	def on_touch_up(self, touchlist, touchID, x, y):
 		print "hey, touch up: ",self.name, touchlist, touchID, x, y
 	

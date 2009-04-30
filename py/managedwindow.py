@@ -2,7 +2,6 @@
 
 # Standard imports
 import os
-# none yet
 
 # Third party imports
 import gtk

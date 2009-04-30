@@ -11,6 +11,7 @@ from pymt import MTScatterSvg, MTScatterPlane, MTSvg
 # Internal imports
 from windowpile import WindowPile, AlreadyPiledError, NotMyChildError
 from managedwindow import WindowNotManagedError
+from config import WIDTH, HEIGHT
 
 class CanvassedPile(WindowPile, MTScatterSvg):
     """Subclasses ManagedWindow and MTScatterImage to bring the abstract concept
@@ -20,8 +21,7 @@ class CanvassedPile(WindowPile, MTScatterSvg):
         self.position = position
         self.parent_widget = mtparent
         WindowPile.__init__(self, managedwindows)
-        MTScatterSvg.__init__(self, filename="pilestar.svg", do_rotation=False, do_scale=False,
-            styles={"bg-color:":"#00ff00"})
+        MTScatterSvg.__init__(self, filename="pilestar.svg", do_rotation=False, do_scale=False)
         self.parent_widget.add_widget(self)
 
     def add(self, window):
@@ -30,9 +30,7 @@ class CanvassedPile(WindowPile, MTScatterSvg):
         except (WindowNotManagedError, AlreadyPiledError):
             raise
         else:
-            #window.set_position( (randint(0,self.width), randint(0,self.height)) )
             self.add_widget( window )
-            self.remove_overlaps(window)
 
     def remove(self, window):
         try:
