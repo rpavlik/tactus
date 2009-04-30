@@ -62,7 +62,7 @@ class WindowPile:
 	"""An collection of 0 or more ManagedWindows, manipulated as a group."""
 	
 	def __init__(self, managedwindows=None):
-		self.windows = set()
+		self.mngd_windows = set()
 		
 		if managedwindows != None:
 			# connect each of the given ManagedWindows to this pile.
@@ -82,7 +82,7 @@ class WindowPile:
 			raise AlreadyPiledError(self, window)
 		
 		window.register_pile(self)
-		self.windows.add(window)
+		self.mngd_windows.add(window)
 	
 	def reassign(self, window):
 		"""Reassign a window already assigned to another pile to this pile."""
@@ -103,11 +103,11 @@ class WindowPile:
 			raise WindowNotManagedError(window)
 		if window.pile != self:
 			raise NotMyChildError(self, window)
-		if window not in self.windows:
+		if window not in self.mngd_windows:
 			raise NotMyChildError(self, window)
 		
 		window.pile = None
-		self.windows.remove(window)
+		self.mngd_windows.remove(window)
 		
 	def update_child_icon(self, window):
 		"""Callback called by child window upon noticing its icon changed."""

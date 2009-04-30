@@ -17,7 +17,7 @@
    version="1.0"
    sodipodi:docname="wallpaper.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/ryan/src/cs460/tactus/py/wallpaper.png"
+   inkscape:export-filename="/home/compsci/src/tactus/py/wallpaper.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -85,17 +85,28 @@
          stdDeviation="21.502635"
          id="feGaussianBlur3245" />
     </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3155"
+       id="radialGradient3175"
+       cx="574.28571"
+       cy="79.428574"
+       fx="574.28571"
+       fy="79.428574"
+       r="745.71429"
+       gradientTransform="matrix(1.0008758,0,0,0.1316229,-62.788661,87.69847)"
+       gradientUnits="userSpaceOnUse" />
     <filter
        inkscape:collect="always"
-       id="filter3295"
-       x="-0.013318758"
-       width="1.0266375"
-       y="-0.12119263"
-       height="1.2423853">
+       id="filter3193"
+       x="-0.0083428421"
+       width="1.0166857"
+       y="-0.11987679"
+       height="1.2397536">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="1.9547835"
-         id="feGaussianBlur3297" />
+         stdDeviation="1.9335596"
+         id="feGaussianBlur3195" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -108,14 +119,14 @@
      objecttolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="496.38362"
-     inkscape:cy="394.64677"
+     inkscape:zoom="0.7"
+     inkscape:cx="306.38716"
+     inkscape:cy="431.65197"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
-     inkscape:window-width="1280"
+     inkscape:window-width="1142"
      inkscape:window-height="725"
      inkscape:window-x="0"
      inkscape:window-y="25" />
@@ -151,26 +162,34 @@
        sodipodi:rx="828.57141"
        sodipodi:ry="241.42857"
        d="M 1237.1429,-7.7142859 A 828.57141,241.42857 0 1 1 -419.99997,-7.7142859 A 828.57141,241.42857 0 1 1 1237.1429,-7.7142859 z"
-       transform="translate(103.42856,0)" />
+       transform="translate(211.99999,-362.85714)" />
     <text
        id="text3199"
        y="728"
        x="511.95117"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#0000ef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;filter:url(#filter3243)"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#0000ef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3243);font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          y="728"
          x="511.95117"
          id="tspan3201"
-         sodipodi:role="line">the tactus project</tspan></text>
+         sodipodi:role="line">the tactus navigator project</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#74739f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;filter:url(#filter3295)"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#d1d0df;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3193);font-family:Bitstream Vera Sans"
        x="511.95117"
        y="728"
        id="text3195"><tspan
          sodipodi:role="line"
          id="tspan3197"
          x="511.95117"
-         y="728">the tactus project</tspan></text>
+         y="728">the tactus navigator project</tspan></text>
+    <rect
+       style="fill:url(#radialGradient3175);fill-opacity:1;stroke:#3a3a3a;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2397"
+       width="1492.7347"
+       height="196.30618"
+       x="-234.36737"
+       y="0"
+       rx="2.9460752" />
   </g>
 </svg>

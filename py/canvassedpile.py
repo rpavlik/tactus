@@ -43,7 +43,7 @@ class CanvassedPile(WindowPile, MTScatterSvg):
     def find_bounds(self):
         xs = []
         ys = []
-        for window in self.windows:
+        for window in self.mngd_windows:
             xs.append(window.x)
             ys.append(window.y)
         

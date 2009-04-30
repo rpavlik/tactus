@@ -9,7 +9,7 @@ from pymt import MTScatterImage, Vector
 
 # Internal imports
 from managedwindow import ManagedWindow
-from config import WIDTH, HEIGHT
+from config import WIDTH, HEIGHT, is_in_bar
 
 class CanvassedWindow(ManagedWindow, MTScatterImage):
 	"""Subclasses ManagedWindow and MTScatterImage to bring the abstract concept
@@ -41,5 +41,7 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 #		
 
 	def on_touch_up(self, touchlist, touchID, x, y):
-		print "hey, touch up: ",self.name, touchlist, touchID, x, y
+		if is_in_bar(x,y):
+			print "Yep, in the bar!"
+		#print "hey, touch up: ",self.name, touchlist, touchID, x, y
 	
