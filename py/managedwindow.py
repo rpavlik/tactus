@@ -117,6 +117,8 @@ class ManagedWindow:
 	
 	def update_minimization(self):
 		"""Update minimization status cached in object - should cascade."""
+		while gtk.events_pending():
+			gtk.main_iteration()
 		self.is_minimized = self.__window.is_minimized()
 		# FIXME: pass along updated state to parent pile.
 		return
