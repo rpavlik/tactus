@@ -48,6 +48,6 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 			print self.name, "Minimizing!"
 			self.minimize()
 		self.update_minimization()
-		return False
+		return MTScatterImage.on_touch_up(self, touchlist, touchID, x, y)
 		#print "hey, touch up: ",self.name, touchlist, touchID, x, y
 	
