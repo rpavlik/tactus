@@ -13,7 +13,7 @@ import gtk
 # Internal imports
 from canvassedpile import CanvassedPile
 from canvassedwindow import CanvassedWindow
-from config import WIDTH, HEIGHT
+from config import WIDTH, HEIGHT, BARSIZE
 
 class PileCanvas(MTKinetic):
 	"""A PileCanvas handles management of all normal window, by tracking both
@@ -40,14 +40,13 @@ class PileCanvas(MTKinetic):
 				#WNCK_WINDOW_NORMAL
 				
 				x = CanvassedWindow(window=window,
-						pos=(uniform(0,mtwindow.width), uniform(0, mtwindow.height-100 ) ) )
-						
+						pos=(uniform(0,mtwindow.width), uniform(0, mtwindow.height-BARSIZE ) ) )
+				self.add_widget(x)
 				if window.is_minimized():
-					
-					self.piles[0].add(x)
+					#self.piles[0].add(x)
 					print "Minimized, pile 0: ", x.name
 				else:
-					self.piles[1].add(x)
+					#self.piles[1].add(x)
 					print "Not Minimized, pile 1: ", x.name
 				self.allwindows.append(x)
 			else:
