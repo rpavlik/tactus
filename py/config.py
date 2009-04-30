@@ -1,8 +1,8 @@
 """Constants and other similar configuration."""
 
-WIDTH = 800 #1024
-HEIGHT = 600 # 768
-BARSIZE=150 #200
+WIDTH = 640 #1024
+HEIGHT = 480 # 768
+BARSIZE=125 #200
 BARLOC="top"
 
 def is_in_bar(x, y):
