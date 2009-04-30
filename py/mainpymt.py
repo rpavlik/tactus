@@ -36,7 +36,7 @@ class PileCanvas(MTKinetic):
 		for window in self.screen.get_windows():
 			print "Got a window", window.get_window_type()
 			if window.get_window_type() == 0 and not (
-				window.get_name().endswith("mainpymt.py") ):
+				window.get_name().endswith("mainpymt.py") and window.get_name().startswith("/home") ):
 					
 				#WNCK_WINDOW_NORMAL
 				
