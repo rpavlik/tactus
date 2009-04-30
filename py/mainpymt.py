@@ -49,7 +49,7 @@ class PileCanvas:
 # Main
 if __name__ == '__main__':
 	w = MTWallpaperWindow(wallpaper='wallpaper.png', fullscreen=False)
-	k = MTKinetic(velstop=2.0, friction=3)
+	k = MTKinetic(velstop=1, friction=3)
 	thisCanvas=PileCanvas(k)
 	k.process_kinetic()
 	w.add_widget(k)
