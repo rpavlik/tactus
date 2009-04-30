@@ -44,7 +44,6 @@ class ManagedWindow:
 			# well, the path already exists.  No harm done.
 			iconroot = iconroot
 		
-		#FIXME: a random number is bad here, we want a hash or something.
 		self.imgpath = os.path.join(iconroot, str(id(self))+".png")
 		self.__window = window
 		self.was_active = self.__window.is_active()
@@ -64,6 +63,12 @@ class ManagedWindow:
 		self.__state_changed_handler = self.__window.connect(
 			"state-changed", self.update_state, 0)
 		return
+	
+	def __del__(self):
+		os.remove(self.imgpath)
+		for b in self.__class__.__bases__:
+			b.__del__(self)
+
 	
 	def register_pile(self, pile):
 		"""Called by a WindowPile that owns this window to let us know that."""
@@ -91,6 +96,7 @@ class ManagedWindow:
 		
 		print "in update_icon for ", self.name
 		self.icon = self.__window.get_icon()
+		self.icon.save(self.imgpath, "png")
 		if not self.pile is None:
 			self.pile.update_child_icon(self)
 		return
