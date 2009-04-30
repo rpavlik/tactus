@@ -4,6 +4,7 @@ WIDTH = 640 #1024
 HEIGHT = 480 # 768
 BARSIZE=125 #200
 BARLOC="top"
+ICONSIZE=32
 
 def is_in_bar(x, y):
     if      BARLOC=="top":
@@ -16,3 +17,7 @@ def is_in_bar(x, y):
         return (x>0 and x<BARSIZE)
     else:
         raise Exception("invalid bar location specified in config")
+
+def bar_location():
+    #FIXME: implement using above. use in canvassedwindow
+    pass
