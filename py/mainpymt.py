@@ -31,7 +31,7 @@ class PileCanvas:
 		for window in self.screen.get_windows():
 			print "Got a window", window.get_window_type()
 			if window.get_window_type() == 0 and not (
-				window.get_name().startswith("The Magic Window") ):
+				window.get_name().endswith("mainpymt.py") ):
 					
 				#WNCK_WINDOW_NORMAL
 				x = CanvassedWindow(window, self.mtwindow)
@@ -49,7 +49,7 @@ class PileCanvas:
 # Main
 if __name__ == '__main__':
 	w = MTWallpaperWindow(wallpaper='wallpaper.png', fullscreen=False)
-	k = MTKinetic()
+	k = MTKinetic(velstop=2.0, friction=3)
 	thisCanvas=PileCanvas(k)
 	k.process_kinetic()
 	w.add_widget(k)
