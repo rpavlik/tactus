@@ -14,7 +14,7 @@ class CanvassedWindow(ManagedWindow):
 		self.position = position
 		self.canvas = canvas
 		ManagedWindow.__init__(self, window)
-		self.mtobject = MTScatterImage(filename=self.imgpath)
+		self.mtobject = MTScatterImage(filename=self.imgpath, do_rotation=False, do_scale=False)
 		if not canvas is None:
 			self.canvas.add_widget(self.mtobject)
 
