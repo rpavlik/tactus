@@ -25,8 +25,8 @@ class PileCanvas(MTKinetic):
 		
 		self.piles = []
 		self.allwindows = []
-		self.piles.append(CanvassedPile(mtparent=mtwindow)) # Minimized pile
-		self.piles.append(CanvassedPile(mtparent=mtwindow)) # Unminimized pile
+		#self.piles.append(CanvassedPile(mtparent=mtwindow)) # Minimized pile
+		#self.piles.append(CanvassedPile(mtparent=mtwindow)) # Unminimized pile
 		
 		#setup wnck and gtk bits
 		self.screen = wnck.screen_get_default()
