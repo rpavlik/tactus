@@ -41,7 +41,12 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 #		
 
 	def on_touch_up(self, touchlist, touchID, x, y):
-		if is_in_bar(x,y):
-			print "Yep, in the bar!"
+		if (is_in_bar(x, y)) and (self.is_minimized):
+			print self.name, "Restoring!"
+			self.restore()
+		elif (not is_in_bar(x, y)) and (not self.is_minimized):
+			print self.name, "Minimizing!"
+			self.minimize()
+		self.update_minimization()
 		#print "hey, touch up: ",self.name, touchlist, touchID, x, y
 	

@@ -53,6 +53,6 @@ class CanvassedPile(WindowPile, MTScatterSvg):
         maxy=max(ys)
         return ( (minx, miny), (maxx, maxy) )
     
-    def remove_overlaps(self, window, iter=0):
+    def remove_overlaps(self, window):
         print self.find_bounds()
     

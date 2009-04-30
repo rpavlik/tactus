@@ -46,6 +46,7 @@ class ManagedWindow:
 		self.imgpath = os.path.join(iconroot, str(id(self))+".png")
 		self.__window = window
 		self.was_active = self.__window.is_active()
+		self.is_minimized = self.__window.is_minimized()
 		self.icon = self.__window.get_icon()
 		self.icon.save(self.imgpath, "png")
 		self.name = ["Unknown Name", self.__window.get_name()] [
@@ -110,6 +111,14 @@ class ManagedWindow:
 		
 		# FIXME: ManagedWindow::update_state is not implemented
 		print "in update_state for ", self.name
+		self.update_minimization()
+		
+		return
+	
+	def update_minimization(self):
+		"""Update minimization status cached in object - should cascade."""
+		self.is_minimized = self.__window.is_minimized()
+		# FIXME: pass along updated state to parent pile.
 		return
 	
 	## setters/mutators
@@ -120,6 +129,7 @@ class ManagedWindow:
 		To be used by Piles or other minimization that isn't coming from the
 		user or window manager."""
 		self.__window.minimize()
+		self.update_minimization()
 		return
 	
 	def restore(self, thetime=None):
@@ -132,4 +142,5 @@ class ManagedWindow:
 		if thetime == None:
 			thetime = gtk.get_current_event_time()
 		self.__window.unminimize(thetime)
+		self.update_minimization()
 		return	
