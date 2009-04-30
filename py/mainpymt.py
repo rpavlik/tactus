@@ -4,9 +4,10 @@ built using PyMT"""
 
 # Standard imports
 from random import uniform
+from sys import exit
 
 # Third party library imports
-from pymt import MTWallpaperWindow, MTScatterSvg, MTKinetic, runTouchApp
+from pymt import MTWallpaperWindow, MTScatterSvg, MTKinetic, MTButton, runTouchApp
 import wnck
 import gtk
 
@@ -60,9 +61,19 @@ class PileCanvas(MTKinetic):
 		self.process_kinetic()
 		self.mtwindow.add_widget(self)
 
+
+
 # Main
 if __name__ == '__main__':
-	w = MTWallpaperWindow(wallpaper='wallpaper.png', fullscreen=False, width=WIDTH, height=HEIGHT)
+	w = MTWallpaperWindow(wallpaper='wallpaper'+str(HEIGHT)+'.png', fullscreen=False, width=WIDTH, height=HEIGHT)
 	thisCanvas=PileCanvas(w)
+	btnExit=MTButton(label="exit", width=50, height=50)
+	w.add_widget(btnExit)
+	
+	@btnExit.event
+	def on_release(touchID, x, y):
+		exit()
+	
+	
 	runTouchApp()
 
