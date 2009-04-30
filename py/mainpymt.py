@@ -51,6 +51,10 @@ class PileCanvas(MTKinetic):
 				self.allwindows.append(x)
 			else:
 				print "Special window: ", window.get_name()
+				if window.get_name().endswith("mainpymt.py") and window.get_name().startswith("/home"):
+					#this is our window: let's treat it right.
+					pass #window.set_window_type(2) #WNCK_WINDOW_DOCK
+					
 		
 		# now add ourselves to the window
 		self.process_kinetic()

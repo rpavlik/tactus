@@ -19,7 +19,7 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 		ManagedWindow.__init__(self, kwargs.get('window'))
 		position=(random.uniform(0,WIDTH), random.uniform(0,HEIGHT))
 		MTScatterImage.__init__(self, filename=self.imgpath, do_rotation=False,
-			do_scale=False, size=(32,32), pos=position)
+			do_scale=False, size=(64,64), pos=position)
 
 #	def set_position(self, position):
 #		"""Changes the position of the window on the canvas, but does not
@@ -48,5 +48,6 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 			print self.name, "Minimizing!"
 			self.minimize()
 		self.update_minimization()
+		return False
 		#print "hey, touch up: ",self.name, touchlist, touchID, x, y
 	
