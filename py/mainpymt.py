@@ -65,7 +65,8 @@ class PileCanvas(MTKinetic):
 
 # Main
 if __name__ == '__main__':
-	w = MTWallpaperWindow(wallpaper='wallpaper'+str(HEIGHT)+'.png', fullscreen=False, width=WIDTH, height=HEIGHT)
+	wallfilename='wallpaper'+str(WIDTH)+'.png'
+	w = MTWallpaperWindow(wallpaper=wallfilename, fullscreen=False, width=WIDTH, height=HEIGHT)
 	thisCanvas=PileCanvas(w)
 	btnExit=MTButton(label="exit", width=50, height=50)
 	w.add_widget(btnExit)
