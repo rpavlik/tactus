@@ -7,14 +7,15 @@ from random import uniform
 from sys import exit
 
 # Third party library imports
-from pymt import MTWallpaperWindow, MTScatterSvg, MTKinetic, MTButton, runTouchApp
+from pymt import MTWallpaperWindow, MTWindow, MTScatterSvg, MTKinetic, MTButton, runTouchApp
 import wnck
 import gtk
+import pyglet
 
 # Internal imports
 from canvassedpile import CanvassedPile
 from canvassedwindow import CanvassedWindow
-from config import WIDTH, HEIGHT, BARSIZE
+from config import *
 
 class PileCanvas(MTKinetic):
 	"""A PileCanvas handles management of all normal window, by tracking both
@@ -65,8 +66,12 @@ class PileCanvas(MTKinetic):
 
 # Main
 if __name__ == '__main__':
-	wallfilename='wallpaper'+str(WIDTH)+'.png'
-	w = MTWallpaperWindow(wallpaper=wallfilename, fullscreen=False, width=WIDTH, height=HEIGHT)
+	if FULLSCREEN:
+		# Xinerama or nVidia TwinView: two screens accessible but one display
+		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=True, config=NAVSCREEN.get_best_config()) #, width=WIDTH, height=HEIGHT,wallpaper=wallfilename,
+		#w = MTWindow( fullscreen=True, screen=screens[1]) #, width=WIDTH, height=HEIGHT,wallpaper=wallfilename,
+	else:
+		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=False, width=WIDTH, height=HEIGHT)
 	thisCanvas=PileCanvas(w)
 	btnExit=MTButton(label="exit", width=50, height=50)
 	w.add_widget(btnExit)
@@ -74,7 +79,6 @@ if __name__ == '__main__':
 	@btnExit.event
 	def on_release(touchID, x, y):
 		exit()
-	
-	
+
 	runTouchApp()
 
