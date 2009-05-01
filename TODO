@@ -1,0 +1,9 @@
+Todo:
+-----
+ - Script to set sync-blank for the second screen
+ - Re-enable pile support, incl. on_touch_up handler on piles
+ - Put all restored windows into one pile?
+ - Simple reclustering algorithm conducted after on_touch_up
+ - svg as wallpaper (patch to pymt?)
+ - move windows to/from bar when getting an update-state that changes status
+ - double-tap to bring to front
