@@ -26,8 +26,9 @@ class PileCanvas(MTKinetic):
 		
 		self.piles = []
 		self.allwindows = []
-		#self.piles.append(CanvassedPile(mtparent=mtwindow)) # Minimized pile
-		#self.piles.append(CanvassedPile(mtparent=mtwindow)) # Unminimized pile
+		if PILES:
+			self.piles.append(CanvassedPile(mtparent=mtwindow)) # Minimized pile
+			self.piles.append(CanvassedPile(mtparent=mtwindow)) # Unminimized pile
 		
 		#setup wnck and gtk bits
 		self.screen = wnck.screen_get_default()
@@ -45,10 +46,12 @@ class PileCanvas(MTKinetic):
 						pos=(uniform(0,mtwindow.width), uniform(0, mtwindow.height-BARSIZE ) ) )
 				self.add_widget(x)
 				if window.is_minimized():
-					#self.piles[0].add(x)
+					if PILES:
+						self.piles[0].add(x)
 					print "Minimized, pile 0: ", x.name
 				else:
-					#self.piles[1].add(x)
+					if PILES:
+						self.piles[1].add(x)
 					print "Not Minimized, pile 1: ", x.name
 				self.allwindows.append(x)
 			else:

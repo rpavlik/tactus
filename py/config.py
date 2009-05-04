@@ -49,6 +49,7 @@ STDWIDTH=1024
 STDBARSIZE=200
 BARLOC="top"
 ICONSIZE=64 #32
+PILES = False
 print prepare_display_settings()
 (WIDTH, HEIGHT, BARSIZE, FULLSCREEN, NAVSCREEN)=prepare_display_settings()
 
