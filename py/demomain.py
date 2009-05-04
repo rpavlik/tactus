@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 """Main module to create demo GTK interface and serve as client to
-ManagedWindow and WindowPile."""
+ManagedWindow and WindowPile.  Not all controls connected, because not all
+controls ended up being needed."""
 
 import gtk
 import gobject
@@ -13,7 +14,7 @@ class PileManagerDemo:
 	"""Class to manage the demo window for the pile manager."""
 	
 	def __init__(self):
-		
+		# Load UI definition
 		self.builder = gtk.Builder()
 		self.builder.add_from_file("demomain.ui")
 		self.builder.connect_signals(self)
@@ -21,6 +22,7 @@ class PileManagerDemo:
 		self.window = self.builder.get_object("winMain")
 		self.window.show()
 		
+		# Set up window navigation
 		screen = wnck.screen_get_default()
 
 		while gtk.events_pending():
@@ -47,8 +49,10 @@ class PileManagerDemo:
 					print "Not Minimized, pile 1: ", x.name
 			else:
 				print "Special window: ", window.get_name()
-				
-		# FIXME: Combo box doesn't work
+		
+		# Set up UI controls based on window navigation info
+		
+		# FIXME: Combo box doesn't work - but no big deal for now.
 		self.combo_model = gtk.ListStore(gobject.TYPE_STRING)
 		self.combo_model.append(("Originally Unminimized",))
 		self.combo_model.append(("Originally Minimized",))

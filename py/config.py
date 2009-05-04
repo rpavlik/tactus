@@ -1,25 +1,26 @@
-"""Constants and other similar configuration."""
+"""Constants and other similar configuration, and related minimal functions."""
 
 import pyglet
 
 def prepare_display_settings():
-    display=pyglet.window.get_platform().get_default_display()
+    display = pyglet.window.get_platform().get_default_display()
     screens = display.get_screens()
     if len(screens) > 1:
         # Xinerama or nVidia TwinView: two screens accessible but one display
         fullscreen=True
         navscreen=screens[1]  #default screen is screens[0] so skip it
-        
-        width=navscreen.width
-        height=navscreen.height
-        barsize=height*STDBARSIZE/STDHEIGHT
+        width = navscreen.width
+        height = navscreen.height
+        barsize = height * STDBARSIZE / STDHEIGHT
     else:
         # single display - mini touch for demo mode
+        # set fallback resolution here!
         width = 640
         height = 480
         barsize = 125
-        fullscreen=False
-        navscreen=None   # won't be used - not fullscreen
+        fullscreen = False
+        navscreen = None   # won't be used - not fullscreen
+
     return (width, height, barsize, fullscreen, navscreen)
 
     
@@ -37,20 +38,21 @@ def is_in_bar(x, y):
         raise Exception("invalid bar location specified in config")
 
 def bar_location():
-    #FIXME: implement using above. use in canvassedwindow
+    #TODO: implement using above. use in canvassedwindow
     pass
 
 #############################
 # Run dynamic configuration #
 #############################
 
-STDHEIGHT=768
-STDWIDTH=1024
-STDBARSIZE=200
-BARLOC="top"
-ICONSIZE=64 #32
+STDHEIGHT = 480
+STDWIDTH = 1024
+STDBARSIZE = 200
+BARLOC = "top"
+ICONSIZE = 64 #32
 PILES = False
-print prepare_display_settings()
-(WIDTH, HEIGHT, BARSIZE, FULLSCREEN, NAVSCREEN)=prepare_display_settings()
+
+# Set display configuration based on detected run type.
+(WIDTH, HEIGHT, BARSIZE, FULLSCREEN, NAVSCREEN) = prepare_display_settings()
 
 WALLFILENAME='wallpaper'+str(WIDTH)+'.png'

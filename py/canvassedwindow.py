@@ -27,7 +27,9 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 #	def set_position(self, position):
 #		"""Changes the position of the window on the canvas, but does not
 #		animate the change.  (It's a 'set', not a 'move-to'.)"""
-#		
+#
+#		#FIXME: Commented out for troubleshooting - code adapted from
+#		#PyMt so it should work, but nothing calls it presently anyway.
 #		
 #		# default values for opengl transform - even though we just translate
 #		intersect = Vector(0,0)
@@ -44,6 +46,8 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 #		
 
 	def on_touch_up(self, touchlist, touchID, x, y):
+		"""Event handler for touch_up on the MTScatterImage - fires on finger
+		release or end of kinetic motion, and sets appropriate restore state"""
 		if is_in_bar(x, y):
 			if self.is_minimized:
 				print self.name, "Restoring!"
@@ -58,6 +62,8 @@ class CanvassedWindow(ManagedWindow, MTScatterImage):
 				print self.name, "already minimized"
 				
 		self.update_minimization()
-		return MTScatterImage.on_touch_up(self, touchlist, touchID, x, y)
 		#print "hey, touch up: ",self.name, touchlist, touchID, x, y
+		
+		# call superclass method to ensure we actually move.
+		return MTScatterImage.on_touch_up(self, touchlist, touchID, x, y)
 	

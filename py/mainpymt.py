@@ -24,9 +24,9 @@ class PileCanvas(MTKinetic):
 		MTKinetic.__init__(self, velstop=1, friction=3)
 		self.mtwindow = mtwindow
 		
-		self.piles = []
 		self.allwindows = []
 		if PILES:
+			self.piles = []
 			self.piles.append(CanvassedPile(mtparent=mtwindow)) # Minimized pile
 			self.piles.append(CanvassedPile(mtparent=mtwindow)) # Unminimized pile
 		
@@ -38,12 +38,13 @@ class PileCanvas(MTKinetic):
 		for window in self.screen.get_windows():
 			print "Got a window", window.get_window_type()
 			if window.get_window_type() == 0 and not (
-				window.get_name().endswith("mainpymt.py") and window.get_name().startswith("/home") ):
-					
-				#WNCK_WINDOW_NORMAL
+				window.get_name().endswith("mainpymt.py")
+				and window.get_name().startswith("/home") ):
+				# WNCK_WINDOW_NORMAL and not us
 				
 				x = CanvassedWindow(window=window,
-						pos=(uniform(0,mtwindow.width), uniform(0, mtwindow.height-BARSIZE ) ) )
+						pos=(uniform(0,mtwindow.width),
+						uniform(0, mtwindow.height-BARSIZE ) ) )
 				self.add_widget(x)
 				if window.is_minimized():
 					if PILES:
@@ -56,8 +57,11 @@ class PileCanvas(MTKinetic):
 				self.allwindows.append(x)
 			else:
 				print "Special window: ", window.get_name()
-				if window.get_name().endswith("mainpymt.py") and window.get_name().startswith("/home"):
-					#this is our window: let's treat it right.
+				if window.get_name().endswith("mainpymt.py") and (
+					window.get_name().startswith("/home") ):
+						
+					# this is our window: let's make it special and
+					# not manage it either.
 					window.set_window_type(2) #WNCK_WINDOW_DOCK
 					
 		
@@ -71,17 +75,27 @@ class PileCanvas(MTKinetic):
 if __name__ == '__main__':
 	if FULLSCREEN:
 		# Xinerama or nVidia TwinView: two screens accessible but one display
-		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=True, config=NAVSCREEN.get_best_config()) #, width=WIDTH, height=HEIGHT,wallpaper=wallfilename,
-		#w = MTWindow( fullscreen=True, screen=screens[1]) #, width=WIDTH, height=HEIGHT,wallpaper=wallfilename,
+		# Put the nav display on the non-primary screen.
+		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=True,
+			config=NAVSCREEN.get_best_config()) 
 	else:
-		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=False, width=WIDTH, height=HEIGHT)
+		w = MTWallpaperWindow(wallpaper=WALLFILENAME, fullscreen=False,
+			width=WIDTH, height=HEIGHT)
+
 	thisCanvas=PileCanvas(w)
+	
 	btnExit=MTButton(label="exit", width=50, height=50)
 	w.add_widget(btnExit)
 	
+	# Event handler for button
 	@btnExit.event
 	def on_release(touchID, x, y):
 		exit()
 
+
+	#TODO: Add button for 180 deg rotation of everything (for when we want it...
+	# but don't have rotate support in the driver)
+	
+	# Start event loop
 	runTouchApp()
 

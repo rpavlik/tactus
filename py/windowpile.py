@@ -9,7 +9,7 @@ affiliated exceptions."""
 #import wnck
 
 # Internal imports
-from managedwindow import WindowNotManagedError #ManagedWindow
+from managedwindow import WindowNotManagedError
 
 class PileError(Exception):
 	"""Base class for Pile-related exceptions."""

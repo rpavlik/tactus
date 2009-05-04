@@ -25,6 +25,7 @@ class CanvassedPile(WindowPile, MTScatterSvg):
         self.parent_widget.add_widget(self)
 
     def add(self, window):
+        """Add a CanvassedWindow to this pile."""
         try:
             WindowPile.add(self, window)
         except (WindowNotManagedError, AlreadyPiledError):
@@ -33,6 +34,7 @@ class CanvassedPile(WindowPile, MTScatterSvg):
             self.add_widget( window )
 
     def remove(self, window):
+        """Remove a CanvassedWindow in this pile, from this pile."""
         try:
             WindowPile.remove(self, window)
         except (WindowNotManagedError, NotMyChildError):
@@ -41,6 +43,10 @@ class CanvassedPile(WindowPile, MTScatterSvg):
             self.remove_widget(window)
     
     def find_bounds(self):
+        """Find the smallest rectangle that would include all icon centers.
+        Will be used for resizing of CanvassedPile background image upon the
+        addition of a new window to it or the motion of an existing child."""
+        
         xs = []
         ys = []
         for window in self.mngd_windows:
@@ -54,5 +60,9 @@ class CanvassedPile(WindowPile, MTScatterSvg):
         return ( (minx, miny), (maxx, maxy) )
     
     def remove_overlaps(self, window):
+        """Moves icons in this pile to eliminate overlaps (spread gesture needs
+        this) - not implemented, currently just points to another function."""
         print self.find_bounds()
+        #TODO: remove_overlaps not implemented, find_bounds called for no good
+        #reason except testing
     

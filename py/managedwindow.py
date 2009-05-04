@@ -65,6 +65,7 @@ class ManagedWindow:
 		return
 	
 	def __del__(self):
+		"""Destructor - cleans up and removes its saved image."""
 		os.remove(self.imgpath)
 		for b in self.__class__.__bases__:
 			b.__del__(self)
@@ -109,7 +110,7 @@ class ManagedWindow:
 		included in this signal. It may trigger a pile-wide update (for
 		instance, active window changes, etc)."""
 		
-		# FIXME: ManagedWindow::update_state is not implemented
+		# TODO: ManagedWindow::update_state is minimally implemented
 		print "in update_state for ", self.name
 		self.update_minimization()
 		
@@ -120,7 +121,7 @@ class ManagedWindow:
 		while gtk.events_pending():
 			gtk.main_iteration()
 		self.is_minimized = self.__window.is_minimized()
-		# FIXME: pass along updated state to parent pile.
+		# TODO: pass along updated state to parent pile for possible removal.
 		return
 	
 	## setters/mutators
