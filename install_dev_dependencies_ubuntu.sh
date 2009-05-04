@@ -5,10 +5,10 @@ THISSCRIPT="install_dev_dependencies_ubuntu.sh"
 
 # Ensures that dependencies are installed - these are only needed for development.
 
-echo "Installing dvelopment dependencies for tactus-navigator..."
+echo "Installing development dependencies for tactus-navigator..."
 sudo aptitude install -y glade-gnome-3 drpython git-core giggle
 
-if [ "$(apt-cache search pymt | grep --invert-match None | grep -o Installed)" = "" ]; then
+if [ "$(dpkg -s pymt | grep -o install\ ok)" = "" ]; then
 	echo "You don't have the pymt package installed systemwide..."
 	echo "If you see 'No module named pymt' below, it's not installed at all"
 	echo "and you need to install it yourself one way or another!"
