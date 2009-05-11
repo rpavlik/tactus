@@ -1,6 +1,10 @@
 README for tactus-navigation
 tactus-navigation: Copyright 2009, Ryan Pavlik <ryan.pavlik@snc.edu>
 
+This version: v1.0.1 - Released 10 May 2009
+
+About:
+------
 tactus-navigation is a task-management interface designed for Linux computers
 using standard keyboard, mouse, and display, as well as a multi-touch display
 (preferably horizontal and opposite the mouse, for bimanual input).  The
@@ -12,7 +16,7 @@ Senior Capstone project course.  The corresponding web site (for the
 combined hardware-software system) is http://compsci.snc.edu/cs460/pavlra/
 
 This project's code is hosted on GitHub - the canonical version is at:
-http://github.com/rpavlik/tactus/tree/master
+http://github.com/rpavlik/tactus/
 
 Quickstart:
 -----------
@@ -26,21 +30,27 @@ for best results run the full default install script.
 Check out the CS460 page for rp-mt-scripts:
 http://compsci.snc.edu/cs460/pavlra/software/rp-mt-scripts/
 
-or soon-to-be better, the project page on GitHub:
-http://github.com/rpavlik/rp-mt-scripts/tree/master
+or the project page on GitHub for the latest release:
+http://github.com/rpavlik/rp-mt-scripts/
 
 2. Make sure you have pymt installed and updated using rp-mt-scripts!  The
-pymt package must be installed (apt-cache policy pymt to make sure.)
+pymt package must be installed - the install script will check.
 
-3. Run tbeta (in rp-mt-scripts, ./run_tbeta.sh , hit b to save background,
-and hit space to go to mini mode) if you are using an actual mt device.  No
-need to run FLOSC since this isn't written in Flash.
+3. Install tactus from where you downloaded or cloned it by running install.sh.
+Either start it in a terminal, or choose Run in Terminal when double-clicking,
+since it will need you to enter your password to install required packages.
 
-4. Run mainpymt.py:
-cd whereveryouclonedtactus/py
-./mainpymt.py
+4. Run tbeta (in rp-mt-scripts/scripts, ./run_tbeta_1.1.sh , hit b to save
+background, and hit space to go to mini mode) if you are using an actual mt
+device.  No need to run FLOSC since this isn't written in Flash.
 
-5. Have fun!  Hit esc to exit until I have a more clever way set up.
+5. Run ./tactus-navigator from wherever you installed the tactus download.
+	(This is a symbolic link to mainpymt.py - you can run the file directly:
+	cd whereveryouclonedtactus/py
+	./mainpymt.py
+	and it does the same thing.)
+
+6. Have fun!  Hit esc or press the "exit" button to exit.
 
 Requirements:
 -------------
@@ -53,22 +63,15 @@ Requirements:
  - (Recommended) rp-mt-scripts to install the latest pymt as a debian package
 	as well as other software needed if you actually have an MT surface.
 
- - A recent (probably SVN) version of PyMT http://pymt.txzone.net/
+ - A recent (probably development) version of PyMT http://pymt.txzone.net/
 	rp-mt-scripts can automatically install the latest as a debian package,
 	which should probably work just spiffy!
 
 	(It does need to be installed system-wide so at least use checkinstall
 	to make a package when installing so you can cleanly remove it.)
 
-	Tested compatible SVN revisions of PyMT:
-	(rp-mt: pymt package version 0.0.rev-datebuilt, we only care about rev)
-	
-	801  (back to 799 should also be fine too, at least - didn't see any
-		important core changes when I just built a new package.)
-
-	Of course, I see now that they just moved to Mercurial for source
-	control, so the rp-mt-scripts will be ported sooner or later.  GitHub
-	will always have the latest.
+	If you have anything since subversion revision 801, including any
+	mercurial ("Hg") version, it will be new enough - just use the scripts.
 
 More Info:
 ----------
@@ -80,3 +83,9 @@ To see source code, history, etc, check the GitHub repository:
 
 If you find a bug, file an issue in my GitHub project:
  - http://github.com/rpavlik/tactus/issues
+
+Version History:
+----------------
+v1.0.1 - Released 10 May 2009
+
+v1.0 - "defense-release" - Released 4 May 2009

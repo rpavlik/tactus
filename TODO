@@ -1,9 +1,18 @@
-Todo:
------
+Bugs/Todo/Ideas:
+---------------
  - Script to set sync-blank for the second screen
- - Re-enable pile support, incl. on_touch_up handler on piles
+ - Fix boundary-handling to check if window is in the bar
+ - Make sure we use global/absolute coords instead of local when checking position of widget with regard to the bar
+ - Ensure that adding a canvassedwindow to a canvassedpile removes it from the pilecanvas on its own to prevent image duplication and weirdness when handling events.
+ - Determine if a canvassedpile should be a MTScatterPlane (infinite size???) or MTScatterWidget/Svg (limited size)
+ - Improve placing windows initially - use something other than uniform random coordinates.
+ - add rotate support and buttons to control rotation (permitting 180 and 90 deg rotates to make image sensible to user)
  - Put all restored windows into one pile?
  - Simple reclustering algorithm conducted after on_touch_up
  - svg as wallpaper (patch to pymt?)
+ - don't permit windows to be thrown offscreen (patch to pymt MTKinetic, as an optional behavior?)
+ - allow kinetic windows to be "caught" (patch to pymt MTKinetic, as an optional behavior?)
  - move windows to/from bar when getting an update-state that changes status
  - double-tap to bring to front
+ - Permanently enable piles
+ - "flip" action to offer additional options for each canvassedwindow
