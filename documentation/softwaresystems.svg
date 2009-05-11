@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="450"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="softwaresystems.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/Users/ryan/Documents/College/CS460/cs460 web site/software/softwaresystems.png"
+   inkscape:export-xdpi="78.75"
+   inkscape:export-ydpi="78.75">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="561.16092"
+     inkscape:cy="167.90051"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(118.78961,42.923531)">
+    <g
+       id="g3625"
+       transform="translate(5.4285907,6.1428676)">
+      <rect
+         ry="4.9816785"
+         rx="5.8489046"
+         y="-41.923531"
+         x="-117.78961"
+         height="435.71426"
+         width="787.14282"
+         id="rect3551"
+         style="opacity:1;fill:#ebffee;fill-opacity:1;stroke:#a1ffbc;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         id="path3485"
+         d="M -108.06602,144.25536 L 261.62951,144.25536 L 262.63966,221.02695 L 659.64992,221.02695 L 659.64992,26.026891 L -108.06602,26.026891 L -108.06602,144.25536 z"
+         style="fill:#ffe8c2;fill-opacity:1;fill-rule:evenodd;stroke:#fcac00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#bdc8ff;fill-opacity:1;fill-rule:evenodd;stroke:#0500ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 16.125,196.34375 C 16.125,241.12717 16.125001,285.90407 16.125,330.6875 C 93.062139,330.6875 190.91711,330.6875 288.5625,330.6875 L 288.5625,388.5625 L 356.28125,388.5625 L 356.28125,330.6875 C 416.21491,330.6875 476.96792,330.6875 525.25,330.6875 C 525.25,311.15789 525.24997,293.62336 525.25,274.09375 C 478.10955,274.09375 430.95295,274.09375 383.8125,274.09375 C 383.8125,248.83993 383.8125,221.59757 383.8125,196.34375 C 287.17458,196.34375 112.76292,196.34375 16.125,196.34375 z"
+         transform="translate(-124.2182,-49.066399)"
+         id="path3481"
+         sodipodi:nodetypes="ccccccccccc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2387"
+         y="164.36539"
+         x="-33.963207"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="164.36539"
+           x="-33.963207"
+           id="tspan2389"
+           sodipodi:role="line">rp-mt-scripts</tspan><tspan
+           id="tspan3219"
+           y="179.36539"
+           x="-33.963207"
+           sodipodi:role="line">software system</tspan><tspan
+           id="tspan3221"
+           y="194.36539"
+           x="-33.963207"
+           sodipodi:role="line">installs and manages</tspan><tspan
+           y="209.36539"
+           x="-33.963207"
+           sodipodi:role="line"
+           id="tspan3772">this software, and</tspan><tspan
+           y="224.36539"
+           x="-33.963207"
+           sodipodi:role="line"
+           id="tspan3776">ensures dependencies</tspan><tspan
+           y="239.36539"
+           x="-33.963207"
+           sodipodi:role="line"
+           id="tspan3778">are available</tspan><tspan
+           y="254.36539"
+           x="-33.963207"
+           sodipodi:role="line"
+           id="tspan3782">(everything except</tspan><tspan
+           y="269.36539"
+           x="-33.963207"
+           sodipodi:role="line"
+           id="tspan3786">extra user applications)</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text2409"
+         y="120.48025"
+         x="600.03058"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="120.48025"
+           x="600.03058"
+           id="tspan2411"
+           sodipodi:role="line">Ubuntu Linux 9.04</tspan><tspan
+           id="tspan3487"
+           y="135.48026"
+           x="600.03058"
+           sodipodi:role="line">distributes:</tspan></text>
+      <rect
+         style="fill:#fffaf2;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3247"
+         width="136.37061"
+         height="102.02541"
+         x="393.77161"
+         y="42.209637"
+         rx="5.8489041"
+         ry="4.981679" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2413"
+         y="62.412685"
+         x="461.99792"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="62.412685"
+           x="461.99792"
+           id="tspan2415"
+           sodipodi:role="line">GNOME</tspan></text>
+      <rect
+         ry="4.981679"
+         rx="5.8489037"
+         y="152.82129"
+         x="267.50259"
+         height="65.659912"
+         width="122.22846"
+         id="rect3241"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2425"
+         y="175.12488"
+         x="328.1217"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="175.12488"
+           x="328.1217"
+           id="tspan2427"
+           sodipodi:role="line">pyglet</tspan><tspan
+           id="tspan2429"
+           y="190.12488"
+           x="328.1217"
+           sodipodi:role="line">Py OpenGL</tspan><tspan
+           id="tspan2431"
+           y="205.12488"
+           x="328.1217"
+           sodipodi:role="line">framework</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3243"
+         width="69.700539"
+         height="65.659912"
+         x="320.03052"
+         y="73.524292"
+         rx="5.8489037"
+         ry="4.981679" />
+      <text
+         id="text2437"
+         y="109.66479"
+         x="354.80756"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="109.66479"
+           x="354.80756"
+           id="tspan2439"
+           sodipodi:role="line">Python</tspan></text>
+      <rect
+         ry="4.981679"
+         rx="5.8489041"
+         y="72.514145"
+         x="401.85284"
+         height="65.659912"
+         width="118.18785"
+         id="rect3245"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2417"
+         y="94.817734"
+         x="460.76221"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="94.817734"
+           x="460.76221"
+           id="tspan2419"
+           sodipodi:role="line">libwnck</tspan><tspan
+           id="tspan2421"
+           y="109.81773"
+           x="460.76221"
+           sodipodi:role="line">window nav.</tspan><tspan
+           id="tspan2423"
+           y="124.81773"
+           x="460.76221"
+           sodipodi:role="line">construction kit</tspan></text>
+      <rect
+         rx="5.5964966"
+         ry="4.9869719"
+         y="232.17491"
+         x="170.85365"
+         height="43.323376"
+         width="218.82077"
+         id="rect2441"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.11318064;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2433"
+         y="256.96255"
+         x="279.68689"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="256.96255"
+           x="279.68689"
+           id="tspan2435"
+           sodipodi:role="line">PyMT Multi-touch Framework</tspan></text>
+      <rect
+         ry="4.9816794"
+         rx="5.8489041"
+         y="232.1181"
+         x="37.18779"
+         height="43.437"
+         width="123.23861"
+         id="rect3217"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2399"
+         y="249.64716"
+         x="98.549286"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan2403"
+           y="249.64716"
+           x="98.549286"
+           sodipodi:role="line">Flash and FLOSC</tspan><tspan
+           id="tspan2407"
+           y="264.64716"
+           x="98.549286"
+           sodipodi:role="line">gateway</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3286"
+         width="219.20309"
+         height="65.659912"
+         x="37.18779"
+         y="152.82129"
+         rx="5.8489037"
+         ry="4.981679" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2391"
+         y="174.41882"
+         x="146.63113"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="174.41882"
+           x="146.63113"
+           id="tspan2393"
+           sodipodi:role="line">Community</tspan><tspan
+           id="tspan2395"
+           y="189.41882"
+           x="146.63113"
+           sodipodi:role="line">Core Vision</tspan><tspan
+           id="tspan2397"
+           y="204.41882"
+           x="146.63113"
+           sodipodi:role="line">(tbeta)</tspan></text>
+      <rect
+         ry="4.981679"
+         rx="5.8489037"
+         y="73.524292"
+         x="172.54825"
+         height="65.659912"
+         width="138.39091"
+         id="rect3341"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="241.4361"
+         y="94.664795"
+         id="text3337"><tspan
+           sodipodi:role="line"
+           id="tspan3339"
+           x="241.4361"
+           y="94.664795">Linux</tspan><tspan
+           id="tspan3343"
+           sodipodi:role="line"
+           x="241.4361"
+           y="109.66479">OpenGL</tspan><tspan
+           id="tspan3345"
+           sodipodi:role="line"
+           x="241.4361"
+           y="124.66479">Support</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3369"
+         width="126.26908"
+         height="65.659912"
+         x="37.187794"
+         y="73.524292"
+         rx="5.8489041"
+         ry="4.981679" />
+      <text
+         id="text3361"
+         y="94.664795"
+         x="99.99128"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="94.664795"
+           x="99.99128"
+           sodipodi:role="line"
+           id="tspan3367">OpenCV</tspan><tspan
+           y="109.66479"
+           x="99.99128"
+           sodipodi:role="line"
+           id="tspan3376">Computer</tspan><tspan
+           y="124.66479"
+           x="99.99128"
+           sodipodi:role="line"
+           id="tspan3378">Vision</tspan></text>
+      <rect
+         style="fill:#bdc8ff;fill-opacity:1;stroke:#0500ff;stroke-width:2.11318064;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3416"
+         width="290.26617"
+         height="43.323376"
+         x="234.71796"
+         y="290.76376"
+         ry="4.9869719"
+         rx="5.5964956" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2383"
+         y="315.73599"
+         x="379.69577"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="315.73599"
+           x="379.69577"
+           id="tspan2385"
+           sodipodi:role="line">tactus-navigator</tspan></text>
+      <text
+         id="text3553"
+         y="-9.9526205"
+         x="275.99557"
+         style="font-size:24.32237434px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="-9.9526205"
+           x="275.99557"
+           id="tspan3555"
+           sodipodi:role="line">Software Systems Diagram</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.36847019px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="275.3627"
+         y="8.6970272"
+         id="text3557"><tspan
+           sodipodi:role="line"
+           id="tspan3559"
+           x="275.3627"
+           y="8.6970272">Ryan Pavlik's CS460 Senior Capstone Project</tspan></text>
+      <text
+         id="text3561"
+         y="356.18951"
+         x="275.71518"
+         style="font-size:11.36847019px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/Users/ryan/Documents/College/CS460/cs460 web site/software/text3561.png"
+         inkscape:export-xdpi="67.5"
+         inkscape:export-ydpi="67.5"><tspan
+           y="356.18951"
+           x="275.71518"
+           id="tspan3563"
+           sodipodi:role="line">Each component directly depends on the elements above its box.</tspan><tspan
+           id="tspan3569"
+           y="370.40012"
+           x="275.71518"
+           sodipodi:role="line">Elements in blue were created in the course of this project (rp-mt-scripts software system and tactus-navigator)</tspan><tspan
+           id="tspan3571"
+           y="384.61069"
+           x="275.71518"
+           sodipodi:role="line">while elements in white or orange are third-party software.</tspan></text>
+      <rect
+         rx="5.5964952"
+         ry="4.9869719"
+         y="290.76376"
+         x="35.432228"
+         height="43.323376"
+         width="125.98042"
+         id="rect3737"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.1131804;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         x="98.267181"
+         y="315.73599"
+         id="text3739"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3741"
+           x="98.267181"
+           y="315.73599">Flash MT Demos</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.1131804;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3743"
+         width="57.408989"
+         height="43.323376"
+         x="169.71794"
+         y="290.76376"
+         ry="4.9869719"
+         rx="5.5964947" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3745"
+         y="309.21451"
+         x="198.12947"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="309.21451"
+           x="198.12947"
+           id="tspan3747"
+           sodipodi:role="line">PyMT</tspan><tspan
+           y="324.21451"
+           x="198.12947"
+           sodipodi:role="line"
+           id="tspan3749">Demos</tspan></text>
+      <text
+         id="text3758"
+         y="309.39908"
+         x="-34.329418"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="309.39908"
+           x="-34.329418"
+           id="tspan3760"
+           sodipodi:role="line">User Applications</tspan><tspan
+           y="324.39908"
+           x="-34.329418"
+           sodipodi:role="line"
+           id="tspan3762">Level</tspan></text>
+      <rect
+         ry="4.981679"
+         rx="5.8489041"
+         y="73.524292"
+         x="-103.22341"
+         height="65.659912"
+         width="126.26908"
+         id="rect3788"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         x="-40.085941"
+         y="102.16479"
+         id="text3790"><tspan
+           id="tspan3796"
+           sodipodi:role="line"
+           x="-40.085941"
+           y="102.16479">bash shell</tspan><tspan
+           sodipodi:role="line"
+           x="-40.085941"
+           y="117.16479"
+           id="tspan3803">(scripting support)</tspan></text>
+    </g>
+  </g>
+</svg>

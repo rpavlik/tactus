@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2769.8179"
+   height="2171.8076"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="classdiagram.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/ryan/Vector Art/SNC/cs460/classesroutingdisabled.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient33848">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop33850" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop33852" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient33840">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop33842" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop33844" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="EmptyDiamondMend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondMend"
+       style="overflow:visible">
+      <path
+         id="path3732"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,-2.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondLend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondLend"
+       style="overflow:visible">
+      <path
+         id="path3729"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,-5.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondMend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondMend"
+       style="overflow:visible">
+      <path
+         id="path3705"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,-2.6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondL"
+       style="overflow:visible">
+      <path
+         id="path3684"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleInL"
+       style="overflow:visible">
+      <path
+         id="path3756"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,4.8,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondM"
+       style="overflow:visible">
+      <path
+         id="path3714"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondM"
+       style="overflow:visible">
+      <path
+         id="path3687"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleInM"
+       style="overflow:visible">
+      <path
+         id="path3759"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,1.8,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3631"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3613"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient33840"
+       id="linearGradient33846"
+       x1="1416.4767"
+       y1="1092.6615"
+       x2="1441.2635"
+       y2="1117.0739"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient33848"
+       id="linearGradient33854"
+       x1="1416.4767"
+       y1="1026.8091"
+       x2="1443.6732"
+       y2="1052.7084"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="444.50088"
+     inkscape:cy="428.79681"
+     inkscape:document-units="px"
+     inkscape:current-layer="g9840"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="921"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:connector-spacing="19" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1322.7385,-631.50159)">
+    <rect
+       style="fill:#d1ffc2;fill-opacity:1;stroke:#3bfc00;stroke-width:1.99842501;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect33802"
+       width="1497.4792"
+       height="961.32709"
+       x="-1257.1689"
+       y="905.82678"
+       rx="10.000001"
+       ry="10.000002" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.43414672;stroke:#ffffff;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.73658537"
+       id="rect35130"
+       width="505.71432"
+       height="144.28571"
+       x="-281.49631"
+       y="938.66168"
+       rx="5.0000005"
+       ry="5" />
+    <path
+       style="opacity:1;fill:#bdc8ff;fill-opacity:1;stroke:#0500ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 275.2054,1275.9636 C 269.6654,1275.9636 265.2054,1280.4236 265.2054,1285.9636 L 265.2054,1884.5573 L -654.20085,1884.5573 C -659.74085,1884.5573 -664.20085,1889.0173 -664.20085,1894.5573 L -664.20085,2743.1198 C -664.20085,2748.6598 -659.74085,2753.1198 -654.20085,2753.1198 L 1371.509,2753.1198 C 1377.049,2753.1198 1381.5091,2748.6598 1381.509,2743.1198 L 1381.509,1285.9636 C 1381.509,1280.4236 1377.0491,1275.9636 1371.509,1275.9636 L 275.2054,1275.9636 z"
+       id="rect33712"
+       sodipodi:nodetypes="cccccccccccc" />
+    <rect
+       ry="5"
+       rx="5.0000005"
+       y="2484.376"
+       x="-531.83105"
+       height="130"
+       width="397.14288"
+       id="rect35120"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.51707315;stroke:#ffffff;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.73658537" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.51707315;stroke:#ffffff;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.73658537"
+       id="rect35087"
+       width="380"
+       height="421.42856"
+       x="982.45465"
+       y="1977.3988"
+       rx="5"
+       ry="5.0000005" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.33340454px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Colaborate-Regular;-inkscape-font-specification:Colaborate-Regular"
+       x="1171.0963"
+       y="2327.9983"
+       id="text35089"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan35091"
+         x="1171.0963"
+         y="2327.9983">base classes test interface</tspan><tspan
+         sodipodi:role="line"
+         x="1171.0963"
+         y="2353.3318"
+         id="tspan35109">(non-multi-touch)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text35093"
+       y="2376.208"
+       x="1171.1536"
+       style="font-size:19.35611916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         y="2376.208"
+         x="1171.1536"
+         id="tspan35095"
+         sodipodi:role="line">py/demomain.py</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.51707315;stroke:#ffffff;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.73658537"
+       id="rect35077"
+       width="397.14288"
+       height="402.85715"
+       x="113.88322"
+       y="2334.376"
+       rx="5.0000005"
+       ry="5" />
+    <g
+       id="g3399"
+       transform="translate(236.46702,1242.5946)"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5"
+         y="95.777023"
+         x="90.557693"
+         height="306.72437"
+         width="281.96225"
+         id="rect2383"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.41536379;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text3157"
+         y="128.21071"
+         x="230.82932"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21071"
+           x="230.82932"
+           id="tspan3159"
+           sodipodi:role="line">ManagedWindow</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="231.51796"
+         y="145.02249"
+         id="text3161"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3163"
+           x="231.51796"
+           y="145.02249">py/managedwindow.py</tspan></text>
+      <flowRoot
+         transform="translate(-0.2622129,-6.6824372)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot3169"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3171"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="59.285721"
+             width="253.57143"
+             id="rect3173" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3175"><flowSpan
+   id="flowSpan3258"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Each instance handles events from a single wnck.Window and provide a higher-level interface to the window data/methods needed for tactus-navigator</flowPara></flowRoot>      <flowRoot
+         transform="translate(-0.2981973,60.474442)"
+         xml:space="preserve"
+         id="flowRoot3213"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion3215"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             id="rect3217"
+             width="253.57143"
+             height="44.285721"
+             x="106.42857"
+             y="165.93361" /></flowRegion><flowPara
+           id="flowPara3219"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan3260"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherits from</flowSpan>: None</flowPara><flowPara
+           id="flowPara3221"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan3262"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherited by</flowSpan>: CanvassedWindow</flowPara><flowPara
+           id="flowPara3223"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan3272"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">C</flowSpan><flowSpan
+   id="flowSpan3266"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">omposes</flowSpan> (&quot;has-a&quot;) wnck.Window</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot3225"
+         xml:space="preserve"
+         transform="translate(-1.8892754,111.42857)"><flowRegion
+           id="flowRegion3227"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="116.42856"
+             width="253.57143"
+             id="rect3229" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3235"><flowSpan
+   id="flowSpan3264"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara3242"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- demomain.py (directly for demo interface to window manipulation)</flowPara><flowPara
+           id="flowPara3244"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara3246"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- WindowPile (aggregation of one or more related ManagedWindow instances)</flowPara><flowPara
+           id="flowPara3254"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara3256"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- CanvassedWindow (as parent class)</flowPara><flowPara
+           id="flowPara3248"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara3250"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara3252"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRoot>      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect8561"
+         width="26.263966"
+         height="23.233509"
+         x="101.93409"
+         y="117.38522"
+         rx="5"
+         ry="5" />
+    </g>
+    <rect
+       ry="10"
+       rx="10.000001"
+       y="905.82666"
+       x="262.83105"
+       height="352.75562"
+       width="348.90787"
+       id="rect33721"
+       style="fill:#ffe8c2;fill-opacity:1;stroke:#fcac00;stroke-width:1.99842513;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="5"
+       rx="5.0000005"
+       y="918.45862"
+       x="294.42783"
+       height="48.571415"
+       width="285.71432"
+       id="rect35174"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.4341469;stroke:#ffffff;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.73658537" />
+    <g
+       id="g33757"
+       inkscape:connector-avoid="true">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.66809416;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3436"
+         width="344.33896"
+         height="306.47165"
+         x="790.18665"
+         y="1341.8453"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="959.39691"
+         y="1374.1527"
+         id="text3438"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3440"
+           x="959.39691"
+           y="1374.1527">WindowPile</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3442"
+         y="1390.9644"
+         x="962.33527"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1390.9644"
+           x="962.33527"
+           id="tspan3444"
+           sodipodi:role="line">py/windowpile.py</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3446"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(702.36101,1242.2888)"><flowRegion
+           id="flowRegion3448"><rect
+             id="rect3450"
+             width="307.1095"
+             height="107.14287"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara3452"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan3454">Purpose</flowSpan>: Aggregates one or more ManagedWindow instances for collective manipulation (maximization/minimization as a group, etc).  Does not &quot;own&quot; those instances - a ManagedWindow can belong to 0 or 1 WindowPiles, and those ManagedWindows persist even if the WindowPile is destructed.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot3456"
+         xml:space="preserve"
+         transform="translate(703.38611,1339.2894)"><flowRegion
+           id="flowRegion3458"><rect
+             y="165.93361"
+             x="106.42857"
+             height="59.438004"
+             width="309.12985"
+             id="rect3460"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3462"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3464">Inherits from</flowSpan>: None</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3466"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3468">Inherited by</flowSpan>: CanvassedPile</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3470"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3506">Aggregates:</flowSpan> (&quot;has a reference to&quot;) ManagedWindow</flowPara></flowRoot>      <flowRoot
+         transform="translate(702.16511,1395.2513)"
+         xml:space="preserve"
+         id="flowRoot3476"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion3478"><rect
+             id="rect3480"
+             width="310.13998"
+             height="72.99202"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara3482"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3484">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3490">- demomain.py (directly for demo interface to window manipulation)</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3492" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3500">- CanvassedPile (as parent class)</flowPara></flowRoot>      <g
+         transform="translate(699.50257,1245.942)"
+         id="g25500">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9962"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect9964"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9966"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect9968"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect9970"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g5045"
+       transform="translate(-309.47793,298.03707)"
+       inkscape:connector-avoid="true">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.41536379;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3521"
+         width="281.96225"
+         height="306.72437"
+         x="298.53738"
+         y="1644.3093"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="438.80902"
+         y="1676.743"
+         id="text3523"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan3525"
+           x="438.80902"
+           y="1676.743">CanvassedWindow</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text3527"
+         y="1693.5548"
+         x="439.49765"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1693.5548"
+           x="439.49765"
+           id="tspan3529"
+           sodipodi:role="line">py/canvassedwindow.py</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3531"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(207.71749,1541.836)"><flowRegion
+           id="flowRegion3533"><rect
+             id="rect3535"
+             width="253.57143"
+             height="59.285721"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara3537"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan3539">Purpose</flowSpan>: Perform direct manipulation on windows through the ManagedWindow class using touch widgets in a multi-touch environment.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot3541"
+         xml:space="preserve"
+         transform="translate(207.6815,1607.4155)"><flowRegion
+           id="flowRegion3543"><rect
+             y="165.93361"
+             x="106.42857"
+             height="56.407551"
+             width="253.57143"
+             id="rect3545"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3547"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3549">Inherits from</flowSpan>: (&quot;is-a&quot;) ManagedWindow, MTScatterImage (multi-touch widget - zoom and rotate disabled in constructor)</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3555"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3553">Inherited by</flowSpan>: None</flowPara></flowRoot>      <flowRoot
+         transform="translate(206.09042,1673.0929)"
+         xml:space="preserve"
+         id="flowRoot3561"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion3563"><rect
+             id="rect3565"
+             width="253.57143"
+             height="116.42856"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3573"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan3569">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3575">- CanvassedPile (aggregation of one or more related ManagedWindow instances)</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3577" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3579">- PileCanvas (multi-touch parent widget in &quot;main&quot; - displays CanvassedWindows on nav screen)</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3581" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3583" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara3585" /></flowRoot>    </g>
+    <path
+       id="path3599"
+       d="M 381.51341,1646.3037 L 216.53301,1941.1387"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       inkscape:connection-end="#g5045"
+       inkscape:connection-start="#g3399" />
+    <g
+       transform="translate(285.3154,1814.0681)"
+       id="g4435"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5"
+         y="95.929306"
+         x="90.709976"
+         height="318.54166"
+         width="344.28714"
+         id="rect4437"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.71992183;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text4439"
+         y="128.21057"
+         x="259.89435"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21057"
+           x="259.89435"
+           id="tspan4441"
+           sodipodi:role="line">CanvassedPile</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="262.8327"
+         y="145.02251"
+         id="text4443"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan4445"
+           x="262.8327"
+           y="145.02251">py/canvassedpile.py</tspan></text>
+      <flowRoot
+         transform="translate(2.8584448,-17.925215)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot4447"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4449"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="73.807838"
+             width="307.1095"
+             id="rect4451" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara4453"><flowSpan
+   id="flowSpan4455"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Extends WindowPile through multiple inheritance to permit collective manipulation of the aggregated CanvassedWindows (ManagedWindows) using touch widgets in a multi-touch environment, displaying a visual indicator of that association.</flowPara></flowRoot>      <flowRoot
+         transform="translate(3.8835385,63.004477)"
+         xml:space="preserve"
+         id="flowRoot4457"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion4459"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             id="rect4461"
+             width="309.12982"
+             height="72.569984"
+             x="106.42857"
+             y="165.93361" /></flowRegion><flowPara
+           id="flowPara4463"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan4465"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherits from</flowSpan>: WindowPile, MTScatterPlane (multi-touch widget - zoom and rotate disabled in constructor)</flowPara><flowPara
+           id="flowPara4467"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan4469"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherited by</flowSpan>: CanvassedPile</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5337"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5343">Composes</flowSpan> (&quot;has-a&quot;) MTSvg (for background image)</flowPara><flowPara
+           id="flowPara4471"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan4473"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Aggregates:</flowSpan> ManagedWindow (by inheritance)</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot4475"
+         xml:space="preserve"
+         transform="translate(2.6625385,145.26873)"><flowRegion
+           id="flowRegion4477"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="97.23568"
+             width="310.13995"
+             id="rect4479" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara4481"><flowSpan
+   id="flowSpan4483"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara4485"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- demomain.py (directly for demo interface to window manipulation)</flowPara><flowPara
+           id="flowPara4487"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara4489"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- PileCanvas (multi-touch parent widget - displays CanvassedPiles on nav screen)</flowPara></flowRoot>    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 892.2167,1649.6511 L 679.87153,1908.6374"
+       id="path4491"
+       inkscape:connection-end="#g4435" />
+    <g
+       transform="translate(-378.83396,1084.6571)"
+       id="g5075"
+       inkscape:connector-avoid="true">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5077"
+         width="282.17535"
+         height="254.79462"
+         x="90.451141"
+         y="95.670471"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="230.82932"
+         y="128.21071"
+         id="text5079"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan5081"
+           x="230.82932"
+           y="128.21071">MTScatterWidget</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text5083"
+         y="145.02249"
+         x="231.51796"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="145.02249"
+           x="231.51796"
+           id="tspan5085"
+           sodipodi:role="line">provided by PyMT</tspan><tspan
+           y="160.63019"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan5219">For direct use (uncommon):</tspan><tspan
+           y="176.23787"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan5143">&quot;from pymt import MTScatterWidget&quot;</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5087"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(-0.2622129,23.66777)"><flowRegion
+           id="flowRegion5089"><rect
+             id="rect5091"
+             width="253.57143"
+             height="59.285721"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara5093"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan5095">Purpose</flowSpan>: Multi-touch widget offering translation, zoom, and scale with one-finger (drag) and two finger gestures (turn, pinch/spread)</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot5097"
+         xml:space="preserve"
+         transform="translate(-0.2981973,87.929533)"><flowRegion
+           id="flowRegion5099"><rect
+             y="165.93361"
+             x="106.42857"
+             height="17.142864"
+             width="253.57143"
+             id="rect5101"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5111"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5105">Inherits from</flowSpan>: MTWidget - generic widget</flowPara></flowRoot>      <flowRoot
+         transform="translate(-1.8892754,110.00001)"
+         xml:space="preserve"
+         id="flowRoot5117"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion5119"><rect
+             id="rect5121"
+             width="253.57143"
+             height="60.000004"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara5123"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5125">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5135">- CanvassedWindow, CanvassedPile, and PileCanvas indirectly through use of child classes (MTScatterSvg, MTScatterImage)</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5137" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5139" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5141" /></flowRoot>    </g>
+    <g
+       id="g5221"
+       transform="translate(-509.66359,1398.0669)"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5"
+         y="95.670471"
+         x="90.451141"
+         height="254.79462"
+         width="282.17535"
+         id="rect5223"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text5225"
+         y="128.21071"
+         x="230.82932"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21071"
+           x="230.82932"
+           id="tspan5227"
+           sodipodi:role="line">MTScatterImage</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="231.51796"
+         y="145.02248"
+         id="text5229"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan5231"
+           x="231.51796"
+           y="145.02248">provided by PyMT</tspan><tspan
+           id="tspan5233"
+           sodipodi:role="line"
+           x="231.51796"
+           y="160.63017">For use:</tspan><tspan
+           id="tspan5235"
+           sodipodi:role="line"
+           x="231.51796"
+           y="176.23785">&quot;from pymt import MTScatterImage&quot;</tspan></text>
+      <flowRoot
+         transform="translate(-0.2622129,25.64359)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot5237"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5239"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="59.285721"
+             width="253.57143"
+             id="rect5241" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5243"><flowSpan
+   id="flowSpan5245"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Multi-touch widget offering translation, zoom, and scale manipulations and display of a bitmap image.</flowPara></flowRoot>      <flowRoot
+         transform="translate(-0.2981973,76.795607)"
+         xml:space="preserve"
+         id="flowRoot5247"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion5249"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             id="rect5251"
+             width="253.57143"
+             height="32.295155"
+             x="106.42857"
+             y="165.93361" /></flowRegion><flowPara
+           id="flowPara5253"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan5255"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherits from</flowSpan>: MTScatterWidget</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5275"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5333">Inherited by</flowSpan>: CanvassedWindow</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot5257"
+         xml:space="preserve"
+         transform="translate(-1.8892754,110)"><flowRegion
+           id="flowRegion5259"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="60.000004"
+             width="253.57143"
+             id="rect5261" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5263"><flowSpan
+   id="flowSpan5265"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara5267"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- CanvassedWindow (subclass) as a widget showing a window's icon manipulating the window itself</flowPara><flowPara
+           id="flowPara5269"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara5271"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara5273"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRoot>    </g>
+    <g
+       transform="translate(-168.75196,1395.9277)"
+       id="g5277"
+       inkscape:connector-avoid="true">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5279"
+         width="282.17535"
+         height="254.79462"
+         x="90.451141"
+         y="95.670471"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="230.82932"
+         y="128.21071"
+         id="text5281"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan5283"
+           x="230.82932"
+           y="128.21071">MTScatterPlane</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text5285"
+         y="145.02251"
+         x="231.51796"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="145.02251"
+           x="231.51796"
+           id="tspan5287"
+           sodipodi:role="line">provided by PyMT</tspan><tspan
+           y="160.6302"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan5289">For use:</tspan><tspan
+           y="176.23788"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan5291">&quot;from pymt import MTScatterPlane&quot;</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5293"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(-0.2622129,20.614081)"><flowRegion
+           id="flowRegion5295"><rect
+             id="rect5297"
+             width="253.57143"
+             height="59.285721"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara5299"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan5301">Purpose</flowSpan>: Multi-touch widget offering translation, zoom, and scale manipulations of all child widgets when children do not handle those events themselves.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot5303"
+         xml:space="preserve"
+         transform="translate(-0.2981973,82.288503)"><flowRegion
+           id="flowRegion5305"><rect
+             y="165.93361"
+             x="106.42857"
+             height="32.295155"
+             width="253.57143"
+             id="rect5307"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5309"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5311">Inherits from</flowSpan>: MTScatterWidget</flowPara><flowPara
+           id="flowPara5313"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5335">Inherited by</flowSpan>: CanvassedPile</flowPara></flowRoot>      <flowRoot
+         transform="translate(-1.8892754,116.06092)"
+         xml:space="preserve"
+         id="flowRoot5315"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion5317"><rect
+             id="rect5319"
+             width="253.57143"
+             height="60.000004"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara5321"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan5323">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5325">- CanvassedPile (subclass) to manipulate representations of multiple grouped windows when not touching an individual window.</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5327" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5329" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara5331" /></flowRoot>    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -200.93546,1436.2233 L -224.48445,1492.6362"
+       id="path5345"
+       inkscape:connection-start="#g5075"
+       inkscape:connection-end="#g5221" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -60.569288,1436.2233 L -23.938995,1490.497"
+       id="path5868"
+       inkscape:connection-start="#g5075"
+       inkscape:connection-end="#g5277" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -167.60751,1749.6331 L -2.899861,1941.1387"
+       id="path7433"
+       inkscape:connection-start="#g5221"
+       inkscape:connection-end="#g5045" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 204.97566,1604.192 L 672.48517,1908.6374"
+       id="path7435"
+       inkscape:connection-start="#g5277"
+       inkscape:connection-end="#g4435" />
+    <g
+       id="g7962"
+       transform="translate(205.74617,881.26978)"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5"
+         y="95.670471"
+         x="90.451141"
+         height="254.79462"
+         width="282.17535"
+         id="rect7964"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text7966"
+         y="128.21071"
+         x="230.82932"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21071"
+           x="230.82932"
+           id="tspan7968"
+           sodipodi:role="line">wnck.Window</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="231.51796"
+         y="145.02251"
+         id="text7970"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan7972"
+           x="231.51796"
+           y="145.02251">provided by libwnck's Python bindings</tspan><tspan
+           id="tspan7974"
+           sodipodi:role="line"
+           x="231.51796"
+           y="160.6302">For direct use:</tspan><tspan
+           id="tspan7976"
+           sodipodi:role="line"
+           x="231.51796"
+           y="176.23788">&quot;import wnck&quot;</tspan></text>
+      <flowRoot
+         transform="translate(-0.2622129,22.544106)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot7978"
+         xml:space="preserve"><flowRegion
+           id="flowRegion7980"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="70.397415"
+             width="253.57143"
+             id="rect7982" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara7984"><flowSpan
+   id="flowSpan7986"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Provide access to and modification of window properties (minimization status, icon, title, etc) through an object-oriented representation of a window - for use in creation of window navigators, task lists, etc.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot7998"
+         xml:space="preserve"
+         transform="translate(-1.8892754,102.14288)"><flowRegion
+           id="flowRegion8000"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="73.571426"
+             width="253.57143"
+             id="rect8002" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara8004"><flowSpan
+   id="flowSpan8006"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara8014"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- ManagedWindow: A ManagedWindow is an enhanced, higher-level object composed of a single wnck.Window, event handlers, and miscellaneous methods.</flowPara></flowRoot>    </g>
+    <g
+       id="g9840"
+       transform="translate(-2642.7602,1093.1907)">
+      <rect
+         ry="10"
+         rx="10"
+         y="957.61188"
+         x="1384.592"
+         height="703.3172"
+         width="366.28058"
+         id="rect9089"
+         style="opacity:1;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:3.36573267;stroke-miterlimit:4;stroke-dasharray:1.68286625, 1.68286625;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text9091"
+         y="994.2431"
+         x="1439.0369"
+         style="font-size:32.92620087px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+         xml:space="preserve"><tspan
+           id="tspan9095"
+           y="994.2431"
+           x="1439.0369"
+           sodipodi:role="line">Key:</tspan></text>
+      <g
+         transform="translate(0,17.515431)"
+         id="g9824">
+        <path
+           style="opacity:1;fill:url(#linearGradient33854);fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 1417.5778,1077.5065 L 1417.5778,1032.9102 C 1417.5778,1030.1402 1419.8078,1027.9102 1422.5778,1027.9102 L 1422.5778,1027.9102 L 1469.7686,1027.9102"
+           id="path9104" />
+        <text
+           xml:space="preserve"
+           style="font-size:15.71423531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           x="1442.4585"
+           y="1057.2418"
+           id="text9106"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan9108"
+             x="1442.4585"
+             y="1057.2418">Provided by a third-party library</tspan></text>
+        <path
+           style="opacity:1;fill:url(#linearGradient33846);fill-opacity:1;stroke:#000000;stroke-width:2.66809416;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 1417.8107,1140.1522 L 1417.8107,1098.9956 C 1417.8107,1096.2256 1420.0407,1093.9956 1422.8107,1093.9956 L 1422.8107,1093.9956 L 1464.7163,1093.9956"
+           id="path9115" />
+        <text
+           xml:space="preserve"
+           style="font-size:15.71423531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           x="1442.4585"
+           y="1121.1753"
+           id="text9117"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan9119"
+             x="1442.4585"
+             y="1121.1753">Written for the tactus-navigator project</tspan></text>
+        <text
+           sodipodi:linespacing="100%"
+           id="text9774"
+           y="1021.018"
+           x="1409.7762"
+           style="font-size:24.2229805px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           xml:space="preserve"><tspan
+             id="tspan9776"
+             y="1021.018"
+             x="1409.7762"
+             sodipodi:role="line">Class origins:</tspan></text>
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         id="path9121"
+         d="M 1698.4153,1238.6876 L 1698.7112,1258.3087"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInM);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline" />
+      <rect
+         ry="5"
+         rx="5"
+         y="1205.0342"
+         x="1678.701"
+         height="31.31473"
+         width="35.355339"
+         id="rect9123"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text9125"
+         y="1230.1674"
+         x="1686.2727"
+         style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1230.1674"
+           x="1686.2727"
+           id="tspan9127"
+           sodipodi:role="line">B</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect9136"
+         width="35.355339"
+         height="31.31473"
+         x="1679.7112"
+         y="1257.5809"
+         rx="5"
+         ry="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="1686.2727"
+         y="1282.5385"
+         id="text9138"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan9140"
+           x="1686.2727"
+           y="1282.5385">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.71423531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="1407.7123"
+         y="1235.7848"
+         id="text9142"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan9144"
+           x="1407.7123"
+           y="1235.7848"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="tspan9834">Inheritance</tspan>: A (subclass) &quot;is-a&quot; B</tspan><tspan
+           id="tspan9958"
+           sodipodi:role="line"
+           x="1407.7123"
+           y="1251.918">(note: A also inherits all relationships</tspan><tspan
+           id="tspan9960"
+           sodipodi:role="line"
+           x="1407.7123"
+           y="1267.6322">of B, not necessarily shown separately)</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text9203"
+         y="1402.2429"
+         x="1407.7123"
+         style="font-size:15.71423531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1402.2429"
+           x="1407.7123"
+           sodipodi:role="line"
+           id="tspan24829"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="tspan9836">Composition</tspan>: A &quot;has-a&quot; B</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.71423531px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="1407.7123"
+         y="1558.1682"
+         id="text9752"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan9754"
+           x="1407.7123"
+           y="1558.1682"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="tspan9838">Aggregation (loose)</tspan>:</tspan><tspan
+           id="tspan9772"
+           sodipodi:role="line"
+           x="1407.7123"
+           y="1574.3014">A&quot;has a reference to&quot; B</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text9778"
+         y="1193.8751"
+         x="1409.7762"
+         style="font-size:24.2229805px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           id="tspan9780"
+           y="1193.8751"
+           x="1409.7762"
+           sodipodi:role="line">Class relationships:</tspan></text>
+      <g
+         transform="translate(267.54969,192.87624)"
+         id="g9187">
+        <rect
+           ry="5"
+           rx="5"
+           y="1150.8783"
+           x="1405.1222"
+           height="31.31473"
+           width="35.355339"
+           id="rect9191"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="100%"
+           id="text9193"
+           y="1176.0115"
+           x="1412.6938"
+           style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           xml:space="preserve"><tspan
+             y="1176.0115"
+             x="1412.6938"
+             id="tspan9195"
+             sodipodi:role="line">B</tspan></text>
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9197"
+           width="59.093925"
+           height="37.880722"
+           x="1398.0511"
+           y="1206.4556"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           x="1430.3716"
+           y="1235.4536"
+           id="text9199"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan9201"
+             x="1430.3716"
+             y="1235.4536">A</tspan></text>
+        <rect
+           ry="5"
+           rx="5.0000005"
+           y="1217.0621"
+           x="1402.5968"
+           height="19.677937"
+           width="21.213207"
+           id="rect9207"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cc"
+           transform="translate(0,-107.58125)"
+           id="path9211"
+           d="M 1419.8365,1288.8327 L 1413.0254,1334.6669"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondM);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:7.86422014px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="1664.311"
+         y="1450.2467"
+         id="text24831"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan24833"
+           x="1664.311"
+           y="1450.2467">&quot;has&quot; 1 instance of B</tspan></text>
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect24234"
+         width="35.355339"
+         height="31.31473"
+         x="1594.5178"
+         y="1331.041"
+         rx="5"
+         ry="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="1602.0895"
+         y="1356.1742"
+         id="text24236"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan24238"
+           x="1602.0895"
+           y="1356.1742">B</tspan></text>
+      <rect
+         ry="5.0000005"
+         rx="5"
+         y="1389.6487"
+         x="1587.4468"
+         height="61.114235"
+         width="59.093925"
+         id="rect24240"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text24242"
+         y="1415.6163"
+         x="1619.7672"
+         style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1415.6163"
+           x="1619.7672"
+           id="tspan24244"
+           sodipodi:role="line">A</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 1609.529,1362.4597 L 1601.2893,1409.0462"
+         id="path24246"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g24248"
+         transform="translate(189.39564,180.16268)">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect24250"
+           width="21.213207"
+           height="12.606871"
+           x="1402.5968"
+           y="1217.062"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="1229.062"
+           x="1402.5968"
+           height="12.606871"
+           width="21.213207"
+           id="rect24252"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect24254"
+           width="21.213207"
+           height="12.606871"
+           x="1402.5968"
+           y="1241.062"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="1253.062"
+           x="1402.5968"
+           height="12.606871"
+           width="21.213207"
+           id="rect24256"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <rect
+         ry="5.000001"
+         rx="5.0000005"
+         y="1397.4569"
+         x="1591.9924"
+         height="48.142586"
+         width="21.213207"
+         id="rect24258"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text24835"
+         y="1462.9602"
+         x="1580.6011"
+         style="font-size:7.86422014px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="1462.9602"
+           x="1580.6011"
+           id="tspan24837"
+           sodipodi:role="line">&quot;has&quot; 0+ instances of B</tspan></text>
+      <g
+         id="g24843"
+         transform="translate(125.24403,320.96594)" />
+      <g
+         id="g25471"
+         transform="translate(180.71429,34.707657)">
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9736"
+           width="35.355339"
+           height="31.31473"
+           x="1413.6936"
+           y="1458.7124"
+           rx="5"
+           ry="5" />
+        <text
+           xml:space="preserve"
+           style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           x="1421.2653"
+           y="1483.8456"
+           id="text9738"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan9740"
+             x="1421.2653"
+             y="1483.8456">B</tspan></text>
+        <rect
+           ry="5.0000005"
+           rx="5"
+           y="1517.3201"
+           x="1406.6226"
+           height="61.114235"
+           width="59.093925"
+           id="rect9742"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="100%"
+           id="text9744"
+           y="1543.2877"
+           x="1438.943"
+           style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           xml:space="preserve"><tspan
+             y="1543.2877"
+             x="1438.943"
+             id="tspan9746"
+             sodipodi:role="line">A</tspan></text>
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondM);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 1426.6719,1489.0043 L 1423.4322,1531.8134"
+           id="path9750"
+           sodipodi:nodetypes="cc" />
+        <g
+           id="g9766"
+           transform="translate(8.5714111,307.83406)">
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect9756"
+             width="21.213207"
+             height="12.606871"
+             x="1402.5968"
+             y="1217.062"
+             rx="5.0000005"
+             ry="5.000001" />
+          <rect
+             ry="5.000001"
+             rx="5.0000005"
+             y="1229.062"
+             x="1402.5968"
+             height="12.606871"
+             width="21.213207"
+             id="rect9758"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect9760"
+             width="21.213207"
+             height="12.606871"
+             x="1402.5968"
+             y="1241.062"
+             rx="5.0000005"
+             ry="5.000001" />
+          <rect
+             ry="5.000001"
+             rx="5.0000005"
+             y="1253.062"
+             x="1402.5968"
+             height="12.606871"
+             width="21.213207"
+             id="rect9762"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="1525.1283"
+           x="1411.1682"
+           height="48.142586"
+           width="21.213207"
+           id="rect9764"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="100%"
+           id="text24861"
+           y="1586.9832"
+           x="1436.1671"
+           style="font-size:7.86422014px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           xml:space="preserve"><tspan
+             y="1586.9832"
+             x="1436.1671"
+             id="tspan24863"
+             sodipodi:role="line">&quot;has references to&quot;</tspan><tspan
+             id="tspan24865"
+             y="1594.8474"
+             x="1436.1671"
+             sodipodi:role="line">0+ instances of B</tspan></text>
+      </g>
+      <g
+         id="g32699"
+         transform="translate(0,187.72227)">
+        <g
+           transform="translate(267.54969,163.58181)"
+           id="g32703">
+          <rect
+             ry="5"
+             rx="5"
+             y="1150.8783"
+             x="1405.1222"
+             height="31.31473"
+             width="35.355339"
+             id="rect32705"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="100%"
+             id="text32707"
+             y="1176.0115"
+             x="1412.6938"
+             style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             xml:space="preserve"><tspan
+               y="1176.0115"
+               x="1412.6938"
+               id="tspan32709"
+               sodipodi:role="line">B</tspan></text>
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect32711"
+             width="59.093925"
+             height="37.880722"
+             x="1398.0511"
+             y="1206.4556"
+             rx="5"
+             ry="5" />
+          <text
+             xml:space="preserve"
+             style="font-size:29.29169846px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             x="1430.3716"
+             y="1235.4536"
+             id="text32713"
+             sodipodi:linespacing="100%"><tspan
+               sodipodi:role="line"
+               id="tspan32715"
+               x="1430.3716"
+               y="1235.4536">A</tspan></text>
+          <rect
+             ry="5"
+             rx="5.0000005"
+             y="1217.0621"
+             x="1402.5968"
+             height="19.677937"
+             width="21.213207"
+             id="rect32717"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cc"
+             id="path32719"
+             d="M 1419.2745,1181.1063 L 1415.7389,1223.5507"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondM);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:7.86422014px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           x="1695.1454"
+           y="1420.9523"
+           id="text32721"
+           sodipodi:linespacing="100%"><tspan
+             sodipodi:role="line"
+             id="tspan32723"
+             x="1695.1454"
+             y="1420.9523">&quot;has a reference to&quot;</tspan><tspan
+             sodipodi:role="line"
+             x="1695.1454"
+             y="1428.8165"
+             id="tspan33313">1 instance of B</tspan></text>
+      </g>
+    </g>
+    <g
+       inkscape:connector-avoid="true"
+       id="g9898"
+       transform="translate(49.601109,2266.9253)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.71992183;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect9900"
+         width="344.28714"
+         height="297.32846"
+         x="90.709976"
+         y="95.929306"
+         ry="5.0000005"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="259.89435"
+         y="128.21057"
+         id="text9902"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan9904"
+           x="259.89435"
+           y="128.21057">PileCanvas</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text9906"
+         y="145.02229"
+         x="262.8327"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="145.02229"
+           x="262.8327"
+           id="tspan9908"
+           sodipodi:role="line">py/mainpymt.py</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot9910"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(2.8584448,-11.172429)"><flowRegion
+           id="flowRegion9912"><rect
+             id="rect9914"
+             width="307.1095"
+             height="100.07182"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara9916"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan9918">Purpose</flowSpan>: Serves as the main application, enumerating windows as CanvassedWindows (into &quot;minimized&quot; and a &quot;visible&quot; initial CanvassedPiles) and setting up the initial status of the multi-touch display/system. Extends MTKinetic to serve as a parent widget, provide natural motion, and provide a natural place of extension for future developers.  Use of piles is optional/configurable.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot9920"
+         xml:space="preserve"
+         transform="translate(3.8835385,94.353184)"><flowRegion
+           id="flowRegion9922"><rect
+             y="165.93361"
+             x="106.42857"
+             height="59.438007"
+             width="309.12982"
+             id="rect9924"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara9930"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan9928">Inherits from</flowSpan>: MTKinetic</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara9938"><flowSpan
+   id="flowSpan9936"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Composes</flowSpan> (&quot;has-a&quot;) CanvassedWindow - an instance for every normal window, CanvassedPile - all existing instances in use</flowPara></flowRoot>      <flowRoot
+         transform="translate(2.6625385,154.36004)"
+         xml:space="preserve"
+         id="flowRoot9942"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion9944"><rect
+             id="rect9946"
+             width="310.13995"
+             height="61.880333"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara9948"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan9950">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara9956">- mainpymt.py &quot;main&quot; section - Created as child widget to a &quot;MTWallpaperWindow&quot; (root-level widget) and initialized to begin application interactivity</flowPara></flowRoot>      <g
+         transform="translate(-3.9645993,-0.1052299)"
+         id="g25507">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect25509"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect25511"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect25513"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect25515"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect25517"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         id="g25519"
+         transform="translate(26.035401,-0.1052299)">
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="103.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect25521"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect25523"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="115.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="127.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect25525"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect25527"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="139.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect25529"
+           width="21.213207"
+           height="48.142586"
+           x="115.18546"
+           y="104.10873"
+           rx="5.0000005"
+           ry="5.000001" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+       d="M 610.19465,1410.7416 L 827.14286,1372.1429"
+       id="path9976"
+       inkscape:connection-start="#g3399" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+       d="M 397.20242,1232.836 L 352.85714,1375"
+       id="path8563"
+       inkscape:connection-start="#g7962" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       x="425.16623"
+       y="1316.6134"
+       id="text8546"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="425.16623"
+         y="1316.6134"
+         id="tspan8559">Composition</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text24146"
+       y="1373.7563"
+       x="709.45197"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         id="tspan24148"
+         y="1373.7563"
+         x="709.45197"
+         sodipodi:role="line">Loose Aggregation</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 152.48692,2250.2784 L 171.42857,2380.7143"
+       id="path25531"
+       inkscape:connection-start="#g5045" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 374.66542,2225.7558 L 202.85714,2380.7143"
+       id="path26102"
+       inkscape:connection-start="#g4435" />
+    <g
+       id="g26675"
+       transform="translate(-720.45837,890.44827)"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5"
+         y="95.670471"
+         x="90.451141"
+         height="254.79462"
+         width="282.17535"
+         id="rect26677"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text26679"
+         y="128.21071"
+         x="230.82932"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21071"
+           x="230.82932"
+           id="tspan26681"
+           sodipodi:role="line">MTWidget</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="231.51796"
+         y="145.02249"
+         id="text26683"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan26685"
+           x="231.51796"
+           y="145.02249">provided by PyMT</tspan><tspan
+           id="tspan26687"
+           sodipodi:role="line"
+           x="231.51796"
+           y="160.63019">For direct use (uncommon):</tspan><tspan
+           id="tspan26689"
+           sodipodi:role="line"
+           x="231.51796"
+           y="176.23787">&quot;from pymt import MTWidget&quot;</tspan></text>
+      <flowRoot
+         transform="translate(-0.2622129,23.66777)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot26691"
+         xml:space="preserve"><flowRegion
+           id="flowRegion26693"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="72.14286"
+             width="253.57143"
+             id="rect26695" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara26697"><flowSpan
+   id="flowSpan26699"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Generic, base class for a multi-touch widget, which can aggregate references to child widgets and dispatch touch-related events to instances or subclass methods</flowPara></flowRoot>      <flowRoot
+         transform="translate(-0.2981973,94.358104)"
+         xml:space="preserve"
+         id="flowRoot26701"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion26703"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             id="rect26705"
+             width="253.57143"
+             height="17.142864"
+             x="106.42857"
+             y="165.93361" /></flowRegion><flowPara
+           id="flowPara26707"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan26709"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Inherited by</flowSpan>: all widgets in PyMT</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot26711"
+         xml:space="preserve"
+         transform="translate(-1.8892754,110.00001)"><flowRegion
+           id="flowRegion26713"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="57.857155"
+             width="253.57143"
+             id="rect26715" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara26717"><flowSpan
+   id="flowSpan26719"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara26721"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- all widgets and consumers of widgets</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara26731" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara26729">- added to a MTWindow or subclass to use</flowPara><flowPara
+           id="flowPara26723"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara26725"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /><flowPara
+           id="flowPara26727"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRoot>      <g
+         transform="translate(-9.6194112,4.9431708)"
+         id="g27952">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect27954"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect27956"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect27958"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect27960"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect27962"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -346.73075,1194.3485 L -289.48395,1226.8925"
+       id="path26735"
+       inkscape:connection-start="#g26675"
+       inkscape:connection-end="#g5075" />
+    <g
+       transform="translate(-864.65277,1265.8189)"
+       id="g27306"
+       inkscape:connector-avoid="true">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676459, 2.20225487;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect27308"
+         width="282.17535"
+         height="254.79462"
+         x="90.451141"
+         y="95.670471"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="230.82932"
+         y="128.21071"
+         id="text27310"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan27312"
+           x="230.82932"
+           y="128.21071">MTKinetic</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text27314"
+         y="145.02249"
+         x="231.51796"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="145.02249"
+           x="231.51796"
+           id="tspan27316"
+           sodipodi:role="line">provided by PyMT</tspan><tspan
+           y="160.63019"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan27318">For use:</tspan><tspan
+           y="176.23787"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan27320">&quot;from pymt import MTKinetic&quot;</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot27322"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(-0.2622129,23.66777)"><flowRegion
+           id="flowRegion27324"><rect
+             id="rect27326"
+             width="253.57143"
+             height="72.14286"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara27328"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan27330">Purpose</flowSpan>: &quot;Container&quot; widget that enables kinetic manipulation (&quot;flick&quot; and similar glide/friction based interaction) of child widgets with configurable parameters.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot27332"
+         xml:space="preserve"
+         transform="translate(-0.2981973,94.358104)"><flowRegion
+           id="flowRegion27334"><rect
+             y="165.93361"
+             x="106.42857"
+             height="17.142864"
+             width="253.57143"
+             id="rect27336"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara27338"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan27340">Inherits from</flowSpan>: MTWidget</flowPara></flowRoot>      <flowRoot
+         transform="translate(-1.8892754,110.00001)"
+         xml:space="preserve"
+         id="flowRoot27342"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion27344"><rect
+             id="rect27346"
+             width="253.57143"
+             height="57.857155"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara27348"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan27350">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara27356"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- mainpymt.py - the PileCanvas subclasses MTKinetic to be the parent widget of all Canvassed Windows and CanvassedPiles</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara27358" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara27360" /><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara27362" /></flowRoot>      <g
+         transform="translate(-9.3466799,-0.427459)"
+         id="g27940">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect27942"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect27944"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect27946"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect27948"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect27950"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -538.28078,1242.0145 L -583.75272,1360.3882"
+       id="path27369"
+       inkscape:connection-start="#g26675"
+       inkscape:connection-end="#g27306" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyDiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M -741.45197,1370.0814 L -627.85714,1225"
+       id="path30242" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text30814"
+       y="1094.7776"
+       x="-713.18219"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         id="tspan30816"
+         y="1094.7776"
+         x="-713.18219"
+         sodipodi:role="line">Loose Aggregation</tspan><tspan
+         y="1110.3853"
+         x="-713.18219"
+         sodipodi:role="line"
+         id="tspan31498">(self relationship)</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text30818"
+       y="1253.1881"
+       x="-750.29529"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         id="tspan30820"
+         y="1253.1881"
+         x="-750.29529"
+         sodipodi:role="line">Loose Aggregation</tspan><tspan
+         y="1268.7958"
+         x="-750.29529"
+         sodipodi:role="line"
+         id="tspan30822">(Implied by MTWidget's</tspan><tspan
+         y="1284.4034"
+         x="-750.29529"
+         sodipodi:role="line"
+         id="tspan30824">loose aggregation</tspan><tspan
+         y="1300.0112"
+         x="-750.29529"
+         sodipodi:role="line"
+         id="tspan30826">self-relationship)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       x="384.44986"
+       y="2287.9695"
+       id="text30828"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="384.44986"
+         y="2287.9695"
+         id="tspan30830">Composition</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       x="213.61298"
+       y="2288.2146"
+       id="text30832"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="213.61298"
+         y="2288.2146"
+         id="tspan30834">Composition</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyTriangleInL);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -559.28239,1617.3851 L -460.31358,1789.6331 L -43.576799,2273.1355 L 140.46635,2394.1154"
+       id="path30836"
+       inkscape:connection-start="#g27306"
+       inkscape:connection-end="#g9898"
+       sodipodi:nodetypes="cccc" />
+    <g
+       transform="translate(-1317.7857,844.5033)"
+       id="g31407">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.20225477;stroke-miterlimit:4;stroke-dasharray:6.60676457, 2.20225486;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect31409"
+         width="282.17535"
+         height="262.87582"
+         x="90.451141"
+         y="95.670471"
+         ry="5"
+         rx="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="230.82932"
+         y="128.21071"
+         id="text31411"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan31413"
+           x="230.82932"
+           y="128.21071">MTWallpaperWindow</tspan></text>
+      <text
+         sodipodi:linespacing="100%"
+         id="text31415"
+         y="145.02248"
+         x="231.51796"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="145.02248"
+           x="231.51796"
+           id="tspan31417"
+           sodipodi:role="line">provided by PyMT</tspan><tspan
+           y="160.63017"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan31419">For use:</tspan><tspan
+           y="176.23785"
+           x="231.51796"
+           sodipodi:role="line"
+           id="tspan31421">&quot;from pymt import MTWallpaperWindow&quot;</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot31423"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         transform="translate(-0.2622129,25.64359)"><flowRegion
+           id="flowRegion31425"><rect
+             id="rect31427"
+             width="253.57143"
+             height="59.285721"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara31429"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold"
+   id="flowSpan31431">Purpose</flowSpan>: Window (fullscreen optional) for multi-touch widgets - subclass of MTWindow with an image displayed as a background.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot31433"
+         xml:space="preserve"
+         transform="translate(-0.2981973,76.795607)"><flowRegion
+           id="flowRegion31435"><rect
+             y="165.93361"
+             x="106.42857"
+             height="32.295155"
+             width="253.57143"
+             id="rect31437"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara31439"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan31441">Inherits from</flowSpan>: MTWindow</flowPara><flowPara
+           id="flowPara31443"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   id="flowSpan31445"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Aggregates</flowSpan>: MTWidget</flowPara></flowRoot>      <flowRoot
+         transform="translate(-1.8892754,110)"
+         xml:space="preserve"
+         id="flowRoot31447"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion31449"><rect
+             id="rect31451"
+             width="253.57143"
+             height="70.101524"
+             x="106.42857"
+             y="165.93361"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight" /></flowRegion><flowPara
+           id="flowPara31453"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan31455">Used by</flowSpan>:</flowPara><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara31463">- mainpymt.py - sets up multi-touch environment for application, aggregating an MTButton and the PileCanvas (both of which are MTWidget subclasses)</flowPara></flowRoot>      <g
+         transform="translate(228.3081,0.408136)"
+         id="g31465">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect31467"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect31469"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect31471"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect31473"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect31475"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect32646"
+         width="26.263966"
+         height="23.233509"
+         x="333.30777"
+         y="252.70737"
+         rx="5"
+         ry="5" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#EmptyDiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -629.59181,1096.0846 C -697.91392,1058.8355 -668.25123,1016.5357 -611.31442,1015.6522"
+       id="path27964"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#EmptyDiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M -631.34534,1000.3655 L -962.67538,968.04066"
+       id="path31500" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text32071"
+       y="963.28955"
+       x="-788.99792"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         id="tspan32073"
+         y="963.28955"
+         x="-788.99792"
+         sodipodi:role="line">Loose Aggregation</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#EmptyDiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M -968.73629,1115.5229 L -815.30276,1657.3851 L -110.71966,2267.4213 L 138.95112,2406.2372"
+       id="path32075"
+       sodipodi:nodetypes="cccc" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text32648"
+       y="2121.8611"
+       x="-383.28369"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         id="tspan32650"
+         y="2121.8611"
+         x="-383.28369"
+         sodipodi:role="line">Loose Aggregation of</tspan><tspan
+         y="2137.4688"
+         x="-383.28369"
+         sodipodi:role="line"
+         id="tspan32654">PileCanvas in MTWallpaperWindow</tspan><tspan
+         y="2153.0764"
+         x="-383.28369"
+         sodipodi:role="line"
+         id="tspan32658">implied by inheritance of MTWidget:</tspan><tspan
+         y="2168.6841"
+         x="-383.28369"
+         sodipodi:role="line"
+         id="tspan32660">application only creates a single instance</tspan><tspan
+         y="2184.2917"
+         x="-383.28369"
+         sodipodi:role="line"
+         id="tspan32662">of PileCanvas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       x="-1021.8551"
+       y="1244.7181"
+       id="text32664"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="-1021.8551"
+         y="1244.7181"
+         id="tspan32666">Loose Aggregation</tspan><tspan
+         sodipodi:role="line"
+         x="-1021.8551"
+         y="1260.3258"
+         id="tspan32670">of PileCanvas is not explicit</tspan><tspan
+         sodipodi:role="line"
+         x="-1021.8551"
+         y="1275.9335"
+         id="tspan33319">in MTWallpaperWindow:</tspan><tspan
+         sodipodi:role="line"
+         x="-1021.8551"
+         y="1291.5413"
+         id="tspan33317">see note futher along this line</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:63.36797714px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Colaborate-Bold;-inkscape-font-specification:Colaborate-Bold"
+       x="71.414268"
+       y="746.40363"
+       id="text33321"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan33323"
+         x="71.414238"
+         y="746.40363">Class Diagram for tactus-navigator and Direct Dependencies</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text33706"
+       y="813.28137"
+       x="60.78561"
+       style="font-size:44.87548065px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         y="813.28137"
+         x="60.78561"
+         id="tspan33708"
+         sodipodi:role="line">Ryan Pavlik &lt;ryan.pavlik@snc.edu&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.35887718px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight Italic"
+       x="433.61624"
+       y="938.17328"
+       id="text33792"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan33794"
+         x="433.61624"
+         y="938.17328">The package providing this module</tspan><tspan
+         sodipodi:role="line"
+         x="433.61624"
+         y="954.53217"
+         id="tspan33796">is distributed by Ubuntu Linux</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text33804"
+       y="1020.7014"
+       x="-29.350338"
+       style="font-size:18.75039864px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight Italic"
+       xml:space="preserve"><tspan
+         y="1020.7014"
+         x="-29.350346"
+         sodipodi:role="line"
+         id="tspan33812">These modules are developed by the PyMT project (third-party),</tspan><tspan
+         y="1039.4518"
+         x="-29.350336"
+         sodipodi:role="line"
+         id="tspan33822">and are downloaded from the latest development code</tspan><tspan
+         y="1058.2023"
+         x="-29.35034"
+         sodipodi:role="line"
+         id="tspan33814">and installed by the rp-mt-scripts package</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.52827835px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       x="-31.045223"
+       y="986.81268"
+       id="text33824"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan33826"
+         x="-31.045218"
+         y="986.81268">PyMT Python Multi-Touch Modules</tspan></text>
+    <g
+       id="g35122"
+       transform="translate(-22.857153,40.932224)">
+      <text
+         sodipodi:linespacing="100%"
+         id="text33828"
+         y="2514.9871"
+         x="-309.92157"
+         style="font-size:18.75039864px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight Italic"
+         xml:space="preserve"><tspan
+           y="2514.9871"
+           x="-309.92157"
+           sodipodi:role="line"
+           id="tspan33834">These modules were all designed and built</tspan><tspan
+           id="tspan35116"
+           y="2533.7375"
+           x="-309.92157"
+           sodipodi:role="line">expressly for the tactus-navigator component of</tspan><tspan
+           id="tspan35118"
+           y="2552.4878"
+           x="-309.92157"
+           sodipodi:role="line">this CSCI-460 project.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:32.52827835px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="-309.36566"
+         y="2481.0984"
+         id="text33836"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan33838"
+           x="-309.36566"
+           y="2481.0984">tactus-navigator</tspan></text>
+    </g>
+    <g
+       transform="translate(909.60111,1899.7824)"
+       id="g33858"
+       inkscape:connector-avoid="true">
+      <rect
+         rx="5"
+         ry="5.0000005"
+         y="95.929306"
+         x="90.709976"
+         height="297.32846"
+         width="344.28714"
+         id="rect33860"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.71992183;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="100%"
+         id="text33862"
+         y="128.21057"
+         x="259.89435"
+         style="font-size:24.00654411px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         xml:space="preserve"><tspan
+           y="128.21057"
+           x="259.89435"
+           id="tspan33864"
+           sodipodi:role="line">PileManagerDemo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.60769176px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         x="262.8327"
+         y="145.02229"
+         id="text33866"
+         sodipodi:linespacing="100%"><tspan
+           sodipodi:role="line"
+           id="tspan33868"
+           x="262.8327"
+           y="145.02229">py/demomain.py</tspan></text>
+      <flowRoot
+         transform="translate(2.8584448,-11.172429)"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot33870"
+         xml:space="preserve"><flowRegion
+           id="flowRegion33872"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="149.35754"
+             width="307.1095"
+             id="rect33874" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara33876"><flowSpan
+   id="flowSpan33878"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium Bold">Purpose</flowSpan>: Basic demo scaffolding using a standard graphical interface (GTK+) to test non-multi-touch classes: implementation incomplete due to ease of multi-touch testing.  Serves as the main application, enumerating windows as ManagedWindows (into &quot;minimized&quot; and a &quot;visible&quot; initial WindowPiles), and handling button events.  Not used in normal operation.</flowPara></flowRoot>      <flowRoot
+         transform="translate(3.8835385,94.353184)"
+         xml:space="preserve"
+         id="flowRoot33880"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowRegion
+           id="flowRegion33882"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             id="rect33884"
+             width="309.12982"
+             height="59.438007"
+             x="106.42857"
+             y="165.93361" /></flowRegion><flowPara
+           id="flowPara33890"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium"
+   id="flowSpan33892">Composes</flowSpan> (&quot;has-a&quot;) ManagedWindow - an instance for every normal window, WindowPile - creates one for initially-restored windows and one for initially-minimized windows.</flowPara></flowRoot>      <flowRoot
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+         id="flowRoot33894"
+         xml:space="preserve"
+         transform="translate(2.6625385,154.36004)"><flowRegion
+           id="flowRegion33896"><rect
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+             y="165.93361"
+             x="106.42857"
+             height="61.880333"
+             width="310.13995"
+             id="rect33898" /></flowRegion><flowPara
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+           id="flowPara33900"><flowSpan
+   id="flowSpan33902"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Colaborate-Medium;-inkscape-font-specification:Colaborate-Medium">Used by</flowSpan>:</flowPara><flowPara
+           id="flowPara33904"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight">- demomain.py &quot;main&quot; section - Entire application runs in one instance of PileManagerDemo.</flowPara></flowRoot>      <g
+         id="g33906"
+         transform="translate(-3.9645993,-0.1052299)">
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="103.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect33908"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect33910"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="115.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="127.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect33912"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect33914"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="139.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect33916"
+           width="21.213207"
+           height="48.142586"
+           x="115.18546"
+           y="104.10873"
+           rx="5.0000005"
+           ry="5.000001" />
+      </g>
+      <g
+         transform="translate(26.035401,-0.1052299)"
+         id="g33918">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect33920"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="103.87655"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="115.87655"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect33922"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect33924"
+           width="21.213207"
+           height="12.606871"
+           x="115.18546"
+           y="127.87656"
+           rx="5.0000005"
+           ry="5.000001" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="139.87656"
+           x="115.18546"
+           height="12.606871"
+           width="21.213207"
+           id="rect33926"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           ry="5.000001"
+           rx="5.0000005"
+           y="104.10873"
+           x="115.18546"
+           height="48.142586"
+           width="21.213207"
+           id="rect33928"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 1938.6834,844.30463 L 2360,1381.1384"
+       id="path33933"
+       transform="translate(-1328.4888,639.11761)"
+       inkscape:connection-start="#g3399" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#DiamondMend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       d="M 2391.6511,1009.8952 L 2394.2857,1383.9955"
+       id="path34504"
+       transform="translate(-1328.4888,639.11761)" />
+    <text
+       xml:space="preserve"
+       style="font-size:25.33340454px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Colaborate-Regular;-inkscape-font-specification:Colaborate-Regular"
+       x="311.09634"
+       y="2696.4043"
+       id="text35079"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan35081"
+         x="311.09634"
+         y="2696.4043">tactus-navigator main application</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text35083"
+       y="2717.4712"
+       x="311.15369"
+       style="font-size:19.35611916px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:ColaborateLight;-inkscape-font-specification:ColaborateLight"
+       xml:space="preserve"><tspan
+         y="2717.4712"
+         x="311.15369"
+         id="tspan35085"
+         sodipodi:role="line">py/mainpymt.py</tspan></text>
+  </g>
+</svg>
